@@ -17,7 +17,9 @@ Well `ECMAScript` is just a **specification** while `JavaScript` is a programmin
 
 The first version os `ECMAScript` was released in 1997, then starting from 2015 **`ECMA`** has been working on annual releases of a newest specification. So in 2015 they released a `ECMAScript 2015`, which is also called `ECMAScipt` version **6** 0s **`ES6`** for short. This specification defined many new features for `JavaScript`.
 
+---
 
+Every `browser` has a JavaScript engine and we can easily write **JavaScript** code there without any additional tools. Of course this is not how we build **real-world** applications!
 
 
 
