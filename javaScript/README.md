@@ -19,7 +19,7 @@ The first version os `ECMAScript` was released in 1997, then starting from 2015 
 
 ---
 
-Every `browser` has a JavaScript engine and we can easily write **JavaScript** code there without any additional tools. Of course this is not how we build **real-world** applications!
+Every `browser` has a **`JavaScript`** engine and we can easily write **JavaScript** code there without any additional tools. Of course this is not how we build **real-world** applications!
 
 
 
