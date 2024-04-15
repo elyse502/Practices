@@ -15,7 +15,7 @@ In a nutshell **JavaScript** code can be run inside of a `browser` or in `node` 
 ## What is the difference between `JavaScript` and `ECMAScript`?
 Well `ECMAScript` is just a **specification** while `JavaScript` is a programming language that confirms to this **specification**. So we have this organization called `ECMA` which is responsible for defining standards, they take care of this `ECMAScript` **specification**.
 
-The first version os `ECMAScript` was released in 1997, then starting from 2015 **`ECMA`** has been working on annual releases of a newest specification. So in 2015 they released a `ECMAScript 2015`, which is also called `ECMAScipt` version **6** 0s **`ES6`**
+The first version os `ECMAScript` was released in 1997, then starting from 2015 **`ECMA`** has been working on annual releases of a newest specification. So in 2015 they released a `ECMAScript 2015`, which is also called `ECMAScipt` version **6** 0s **`ES6`** for short. This specification defined many new features for `JavaScript`.
 
 
 
