@@ -29,7 +29,7 @@ function getWage(baseSalary, overtime, rate) {
 }
 
 ```
-So here we have 3 `variables:` `baseSalary`, `overtime` and `rate` below these we have a `function` to calculate the `wage` for **an employee**. We refer to this kind of implementation as _**`procedural`**_, so we have `variables` on one side and `functions` on the other side, they're hard decoupled. Now let's take a look at the **object-oriented** way to solve this `problem` below:
+So here we have 3 `variables:` `baseSalary`, `overtime` and `rate` below these we have a `function` to calculate the `wage` for **an employee**. We refer to this kind of implementation as _**`procedural`**_, so we have `variables` on one side and `functions` on the other side, they're hard decoupled. Now let's take a look at the **object-oriented** way to solve this `problem` above:
 
 ```javascript
 
