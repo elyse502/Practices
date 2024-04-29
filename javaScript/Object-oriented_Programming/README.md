@@ -70,7 +70,9 @@ Think of `HTML` **elements** like `TextBoxes`, `Drop-down lists`, `CheckBoxes` a
 ---
 
 ### 4. Polymorphism
-`poly` means `many` & `morph` means `form`, so `polymorphism` means `many forms`
+`poly` means `many` & `morph` means `form`, so `polymorphism` means `many forms`. In **Object-oriented Programming** `polymorphism`is a technique that allows you to get rid of long `if` and `else` or `switch` and `case` **statements**, so back to our `HTML` **elements** example:
+
+![Screenshot 2024-04-29 111831](https://github.com/elyse502/Practices/assets/125453474/dfff2d30-7118-48b8-8bf0-20f59b6269ad)
 
 
 
