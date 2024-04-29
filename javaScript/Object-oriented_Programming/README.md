@@ -114,6 +114,10 @@ element.render();
 ```
 
 ## BENEFITS OF OOP
+### 1. Encapsulation
+Using `encapsulation` we group related `variables` and `functions` together and this way we can reduce `complexity`. Now we can reuse these `objects` in different parts of a **program** or in different **programs**.
+
+### 2. Abstraction
 
 ![Screenshot 2024-04-29 114430](https://github.com/elyse502/Practices/assets/125453474/bcc72d8f-17b6-42a1-b6f2-e0bcbe42f2af)
 
