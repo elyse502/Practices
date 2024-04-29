@@ -12,7 +12,11 @@
 ### Let's look at each of these concepts:
 Before **Object-oriented Programming** we had `Procedure Programming` that divided a program into a set of **functions**, so we have `data` stores in a bunch of `variables` and `functions` that operate on the data. This `style` of **programming** is very simple and straightforward, often it's what you learn as part of your first **programming subject** at a `university` but as your programs grow it will end up with a bunch of **functions** that are all over the place, you might find yourself **copying** and **pasting** lines of code over and over, you make a change to one function and then a several other **functions** break. That's what we call _`spaghetti code`_, there's so much **interdependence** btwn all these `functions`, it becomes problematic. **Object-oriented Programming** came to solve this **problem**, `object-oriented Programming` we combine a **group** of related `variables` and `functions` into a **`unit`**, we call that `unit` an _**`object`**_. We refer to these `variables` as **`properties`** and the `functions` as **`methods`**.
 
-![Screenshot 2024-04-29 113612](https://github.com/elyse502/Practices/assets/125453474/82c44f33-9511-44f1-a05c-58965f14d381)
+![Screenshot 2024-04-29 113612](https://github.com/elyse502/Practices/assets/125453474/82c44f33-9511-44f1-a05c-58965f14d381) ![Screenshot 2024-04-29 113739](https://github.com/elyse502/Practices/assets/125453474/e5d53c1f-bf16-4823-8bd5-14cad979cfce)
+
+**Object-oriented Programming**
+
+![Screenshot 2024-04-29 113917](https://github.com/elyse502/Practices/assets/125453474/a990d5d3-c11b-4ae8-ac30-fd4cce85ed1b)
 
 Here's is an _**example**_:
 
