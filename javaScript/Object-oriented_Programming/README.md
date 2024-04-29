@@ -14,7 +14,7 @@ Before **Object-oriented Programming** we had `Procedure Programming` that divid
 
 Here's is an _**example**_:
 
-Think of a `car`, a **car** is an object with `properties` such as `make, model` and `color`
+Think of a `car`, a **car** is an object with **`properties`** such as `make, model` and `color` and **`methods`** like `start(), stop()` and `move()`.  
 
 
 
