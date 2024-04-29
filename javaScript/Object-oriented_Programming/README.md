@@ -22,6 +22,8 @@ Here's is an _**example**_:
 
 Think of a `car`, a **car** is an object with **`properties`** such as `make, model` and `color` and **`methods`** like `start(), stop()` and `move()`. Now you might say what we don't have `cars` in our `programs`, give me a real programming `example`. Okay think of _**`local storage object`**_ in your `browser's`, every `browser` has a `local storage object` that allows you to store `data locally`. This **local storage object** has a `property` like `length` which returns the number of `objects` in the storage and `methods` like `set item` and `remove item`.
 
+![Screenshot 2024-04-29 114120](https://github.com/elyse502/Practices/assets/125453474/36b4bd05-1ecc-4b25-a6d1-36de4c3d17e6)
+
 ### 1. Encapsulation
 So in **`Object-oriented Programming`** we group related `variables` and `functions` that operate on them into _**`objects`**_, and this is what we call `encapsulation`. Let me show you an `example` of this in action:
 
