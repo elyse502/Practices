@@ -74,7 +74,19 @@ Think of `HTML` **elements** like `TextBoxes`, `Drop-down lists`, `CheckBoxes` a
 
 ![Screenshot 2024-04-29 111831](https://github.com/elyse502/Practices/assets/125453474/dfff2d30-7118-48b8-8bf0-20f59b6269ad)
 
+All those `objects` should have the ability to be **rendered** on a **page**, but the way each **element** is rendered is different from others. If we want to **render** multiple `HTML` **elements** in a `procedural` way our code would probably look like this:
 
+```groovy
+
+switch (...) {
+  case `select`: renderSelect();
+  case `text`: renderTextBox();
+  case `checkbox`: rederCheckBox();
+  case ...
+  case ...
+  case ...
+
+}
 
 
 
