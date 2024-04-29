@@ -63,7 +63,9 @@ Think of a `DVD player` as an `object`, this `DVD player` has a complex **logic 
 ---
 
 ### 3. Inheritance
+**`Inheritance`** is a mechanism that allows you to eliminate the `redundant code`. Here is an example:
 
+Think of `HTML` **elements** like `TextBoxes`, `Drop-down lists`, `CheckBoxes` and so on.... All these `elements` have a few things in common, they should have `properties` like `hidden` and `innerHTML` and `methods` like `click()` and `focus()`. Instead of redefining all those `properties` and `methods` for every **type** of `HTML` **element**
 
 
 
