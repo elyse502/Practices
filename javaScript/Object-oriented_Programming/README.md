@@ -113,5 +113,26 @@ element.render();
 
 ```
 
+## BENEFITS OF OOP
+
+![Screenshot 2024-04-29 114430](https://github.com/elyse502/Practices/assets/125453474/bcc72d8f-17b6-42a1-b6f2-e0bcbe42f2af)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
