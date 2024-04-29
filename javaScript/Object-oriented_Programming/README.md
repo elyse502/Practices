@@ -52,7 +52,7 @@ let employee = {
 employee.getWage();
 
 ```
-
+We can have an `employee object` with 3 **`properties:`** `baseSalary`, `overtime` and `rate` and a **`method`** called `getWage`, now why is this better? well first of all look at the `getWage function`, this `function` has no `parameters`. In contrast  
 
 
 
