@@ -1,5 +1,5 @@
 # Object-oriented Programming
-
+**Object-oriented Programming** is a programming `paradigm` centered around `objects` rather than functions. **OOP** is `not` a programming language or tool!
 
 
 
