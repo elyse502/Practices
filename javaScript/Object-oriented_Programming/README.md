@@ -10,7 +10,7 @@
 * `Polymorphism`
 
 ### Let's look at each of these concepts:
-Before **Object-oriented Programming** we had `Procedure Programming` that divided a program into a set of **functions**, so we have `data` stores in a bunch of `variables` and `functions` that operate on the data. This `style` of **programming** is very simple and straightforward, often it's what you learn as part of your first **programming subject**
+Before **Object-oriented Programming** we had `Procedure Programming` that divided a program into a set of **functions**, so we have `data` stores in a bunch of `variables` and `functions` that operate on the data. This `style` of **programming** is very simple and straightforward, often it's what you learn as part of your first **programming subject** at a `university` but as your programs grow it will end up with a bunch of **functions** that are all over the place, you might find yourself **copying** and **pasting** lines of code over and over, you make a change to one function and then a several other **functions** break. That's what we call _`spaghetti code`_, There's so much **interdependence**   
 
 
 
