@@ -17,6 +17,7 @@ Here's is an _**example**_:
 Think of a `car`, a **car** is an object with **`properties`** such as `make, model` and `color` and **`methods`** like `start(), stop()` and `move()`. Now you might say what we don't have `cars` in our `programs`, give me a real programming `example`. Okay think of _**`local storage object`**_ in your `browser's`, every `browser` has a `local storage object` that allows you to store `data locally`. This **local storage object** has a `property` like `length` which returns the number of `objects` in the storage and `methods` like `set item` and `remove item`.
 
 So in **`Object-oriented Programming`** we group related `variables` and `functions` that operate on them into _**`objects`**_, and this is what we call `encapsulation`. Let me show you an `example` of this in action:
+
 ```javascript
 
 let baseSalary = 30_000;
@@ -28,8 +29,29 @@ function getWage(baseSalary, overtime, rate) {
 }
 
 ```
-So here we have 3 `variables:` `baseSalary`, `overtime` and `rate` below these we have a `function` to calculate the `wage` for **an employee**. We refer to this kind of implementation as _**`procedural`**_, so we have `variables` on one side and `functions` on the other side, they're hard decoupled
+So here we have 3 `variables:` `baseSalary`, `overtime` and `rate` below these we have a `function` to calculate the `wage` for **an employee**. We refer to this kind of implementation as _**`procedural`**_, so we have `variables` on one side and `functions` on the other side, they're hard decoupled. Now let's take a look at the **object-oriented** way to solve this `problem` below:
 
+```javascript
+
+let baseSalary = 30_000;
+let overtime = 10;
+let rate = 20;
+
+function getWage(baseSalary, overtime, rate) {
+  return baseSalary + (overtime * rate);
+}
+
+let employee = {
+  baseSalary = 30_000,
+  overtime = 10,
+  rate = 20,
+  getWage: function() {
+    return this.baseSalary + (this.overtime * this.rate);
+  }
+};
+employee.getWage();
+
+```
 
 
 
