@@ -60,6 +60,8 @@ We can have an `employee object` with 3 **`properties:`** `baseSalary`, `overtim
 ### 2. Abstraction
 Think of a `DVD player` as an `object`, this `DVD player` has a complex **logic board** on the inside and a few **buttons** on the outside that you interact with, you simply press the `play button` and you don't care what happens on the inside, all that `complexity` is hidden from you. This is **`abstraction`** in practice, we can use the same `technique` in our objects so we can hide some of the `properties` and `methods` from the outside and this gives us a couple of **benefits**, first is that we'll make the `interface` of those `objects` simpler. Using an understanding an `object` with a few `properties` and `methods` is **easier** than an `object` with several `properties` and `methods`. The second **benefit** is that it helps us reduce the impact of **change**, let's imagine that tomorrow we change these **inner** or **private** `methods` none of these **changes** will leak to the outside because we don't have any **code** that touches these `methods` outside of their containing `object`, we may **delete** a `method` or **change** its `parameters` but none of these **changes** will impact the rest of the `applications code`. So with `abstraction` we reduce the impact of **change**.
 
+![Screenshot 2024-04-29 113316](https://github.com/elyse502/Practices/assets/125453474/9a01f05e-e1a6-49b8-befb-3036e5b5c584)
+
 ---
 
 ### 3. Inheritance
