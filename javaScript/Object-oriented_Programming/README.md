@@ -3,6 +3,27 @@
 
 `JavaScript` is a little bit controversial!. It may interest you to know that many of the popular `frameworks` out there that you might be using are actually designed with **Object-oriented Programming** concepts in mind. `Angular` is an example of these `frameworks`. So **`Object-oriented Programming`** is a popular style of programming and it comes up in many technical **interviews**, so if you really want to be a `serious developer` you need to understand **`Object-oriented Programming`**. 
 
+## 4 pillars of `Object-oriented Programming`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
