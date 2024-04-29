@@ -93,7 +93,13 @@ But with `object-orintation` we can implement a render `method` in each of those
 
 ![Screenshot 2024-04-29 112841](https://github.com/elyse502/Practices/assets/125453474/1fb4befe-5126-42bd-901c-2181c6b69e3d)
 
+And the render `method` will behave differently depending on the type of the `object` we are referencing, so we can get rid of that nasty `switch` and `case` and use one line of code like this:
 
+```groovy
+
+element.render();
+
+```
 
 
 
