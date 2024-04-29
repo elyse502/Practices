@@ -9,6 +9,8 @@
 * `Inheritance`
 * `Polymorphism`
 
+### Let's look at each of these concepts:
+Before **Object-oriented Programming** we had `Provedure Programming` that divided a program into a set of **functions**, so we have `data` stores in a bunch of `variables` and `functions` that operate on the data. This `style` of **programming** is very simple and straightforward, often it's what you learn as part of your first **programming subject**
 
 
 
