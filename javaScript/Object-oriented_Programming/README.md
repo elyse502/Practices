@@ -89,6 +89,9 @@ switch (...) {
 
 ```
 
+But with `object-orintation` we can implement a render `method` in each of those `objects`: 
+
+![Screenshot 2024-04-29 112841](https://github.com/elyse502/Practices/assets/125453474/1fb4befe-5126-42bd-901c-2181c6b69e3d)
 
 
 
