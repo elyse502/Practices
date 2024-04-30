@@ -139,6 +139,7 @@ With `polymorphism` we can **refactor** ugly `switch`  `case` **statements**
 ## value vs Reference Types
 In `JavaScript` we have two categories of `types`, on one side we have **value types** also called **primitives** and the other side we have **reference types**.
 
+![Screenshot 2024-04-30 104517](https://github.com/elyse502/Practices/assets/125453474/b903f40e-40f3-424d-bf3a-c2edbfadd993)
 
 
 
