@@ -1,1 +1,2 @@
-# Practices
+# Practices 💻🎬✍️
+This `Repo` is designed for learning and practicing purposes....
