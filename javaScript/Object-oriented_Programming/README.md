@@ -61,9 +61,11 @@ let employee = {
 employee.getWage();
 
 ```
-We can have an `employee object` with 3 **`properties:`** `baseSalary`, `overtime` and `rate` and a **`method`** called `getWage`, now why is this better? well first of all look at the `getWage function`, this `function` has no `parameters`. In contrast in a _**`procedural example`**_ our `getWage function` has 3 `parameters`, the reason in the other **implementation** we don't have any parameters is because all those parameters(`baseSalary`, `overtime` and `rate`) are actually modeled as `properties` of that **object(`employee`)**. All those `properties` and `getWage function` they are highly related, so they are part of one _**`unit`**_. So one of the `symptons` of the **procedure** code is `functions` with so many `parameters`, when you write **code** in **`object-oriented`** way your `functions` end up having fewer and fewer `parameters`. As **`Uncle Bob`** says "the best `functions` are those with no `parameters`", The **fewer** the number of `parameters` the **easier** it is to use and maintain that `function`. So that's **`Encapsulation`**, now let's look at **`Abstraction:`**
+We can have an `employee object` with 3 **`properties:`** `baseSalary`, `overtime` and `rate` and a **`method`** called `getWage`, now why is this better? well first of all look at the `getWage function`, this `function` has no `parameters`. In contrast in a _**`procedural example`**_ our `getWage function` has 3 `parameters`, the reason in the other **implementation** we don't have any parameters is because all those parameters(`baseSalary`, `overtime` and `rate`) are actually modeled as `properties` of that **object(`employee`)**. All those `properties` and `getWage function` they are highly related, so they are part of one _**`unit`**_. So one of the `symptons` of the **procedure** code is `functions` with so many `parameters`, when you write **code** in **`object-oriented`** way your `functions` end up having fewer and fewer `parameters`. As **`Uncle Bob`** says "the best `functions` are those with no `parameters`", The **fewer** the number of `parameters` the **easier** it is to use and maintain that `function`. So that's **`Encapsulation`**.
 
 ![Screenshot 2024-04-29 113455](https://github.com/elyse502/Practices/assets/125453474/7925d938-2f34-42ea-b9db-ec64166005db)
+
+Now let's look at **`Abstraction:`**
 
 ---
 
