@@ -5,7 +5,6 @@
  * - The difference is how they are called
  * - Factory Functions: camelCase
  * - Constructor Functions: PascalCase
- * - Factory Functions: return an object
  * - Constructor Functions: use the 'new' keyword
  * - Factory Functions: do not use the 'new' keyword
  * - Constructor Functions: use 'this' to set properties
