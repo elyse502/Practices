@@ -17,6 +17,7 @@ function Circle(radius) {
 
 const circle = new Circle(10);
 
+// We can add properties to an object by simply setting a property on that object. We can use dot notation or bracket notation.
 circle.location = { x: 1 }; // dot notation
 circle['location'] = { x: 1 }; // bracket notation
 
