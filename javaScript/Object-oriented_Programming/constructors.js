@@ -13,22 +13,22 @@
 
 
 // Factory Function
-function createCircle(radius) {
-    return {
-        radius,
-        draw: function() {
-            console.log('draw');
+function createCircle(radius) { // camelCase
+    return { // object literal notation
+        radius, // property
+        draw: function() { // method
+            console.log('draw'); // implementation
         }
     };
 }
 const circle = createCircle(1);
 
 // Constructor Function
-function Circle(radius) {
+function Circle(radius) { // PascalCase
     console.log('this', this); // this refers to the object that is executing the function
-    this.radius = radius;
-    this.draw = function() {
-        console.log('draw');
+    this.radius = radius; // property
+    this.draw = function() { // method
+        console.log('draw'); // implementation
     }
 }
 const another = new Circle(1); // new creates an empty object, then it sets this to point to that object, then it returns the object from the function
