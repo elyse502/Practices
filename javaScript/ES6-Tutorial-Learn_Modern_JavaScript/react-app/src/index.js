@@ -82,6 +82,20 @@ walk2(); // This will return a reference to the person object
 
 // Arrow functions
 console.log('>> Arrow functions');
-const square = function(number) {
+const square = function(number) { // This is a regular function(Old JavaScript)
   return number * number;
 };
+
+const square1 = number => number * number; // This is an arrow function(New JavaScript)
+console.log(square1(5));
+
+// Now let's see where these arrow function are really useful
+const jobs = [
+  { id: 1, isActive: true },
+  { id: 2, isActive: true },
+  { id: 3, isActive: false }
+];
+
+const activeJobs = jobs.filter(function(job) { return job.isActive; }); // This is a regular function(Old JavaScript)
+const activeJobs1 = jobs.filter(job => job.isActive); // This is an arrow function(New JavaScript)
+console.log(activeJobs1);
