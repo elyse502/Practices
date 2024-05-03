@@ -99,3 +99,39 @@ const jobs = [
 const activeJobs = jobs.filter(function(job) { return job.isActive; }); // This is a regular function(Old JavaScript)
 const activeJobs1 = jobs.filter(job => job.isActive); // This is an arrow function(New JavaScript)
 console.log(activeJobs1);
+
+
+// Arrow functions and "This"
+console.log('>> Arrow functions and "This"');
+const person3 = {
+  talk() {
+    setTimeout(function() { // setTimeout is a function that takes a callback function and a delay in milliseconds
+      console.log('this', this);
+    }, 1000);
+  }
+};
+
+person3.talk(); // This will return the window object because the "this" keyword in the setTimeout function is not referencing the person object
+
+// To fix the issue above, we can use the bind method
+const person4 = {
+  talk() {
+    var self = this; // This is a common pattern in JavaScript to store the reference to "this" in a variable called self and then use self in the inner function where "this" is not available or not what we expect it to be
+    setTimeout(function() {
+      console.log('self', self);
+    }, 1000);
+  }
+};
+
+person4.talk(); // This will return the person object
+
+// Another way to fix the issue above is to use an arrow function
+const person5 = {
+  talk() {
+    setTimeout(() => { // Arrow functions inherit the "this" keyword from the containing function which is the talk function in this case and that's why we don't have to use the bind method or the self variable to fix the issue above when using arrow functions in this case because the "this" keyword in the arrow function is referencing the person object which is what we expect it to be in this case and that's why we get the person object in the console when we run the code below and not the window object like we did in the code above when we used the regular function instead of the arrow function in the setTimeout function in the talk function in the person object above
+      console.log('this', this);
+    }, 1000);
+  }
+};
+
+person5.talk(); // This will return the person object
