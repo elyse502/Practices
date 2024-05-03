@@ -47,3 +47,17 @@ person.name = ''; // This is another way to change the value of a property in an
 const targetMember = 'name';
 person[targetMember.value] = 'Eric';
 console.log(person.name); // Eric
+
+// The "This" keyword
+const person1 = {
+  name: 'Elysee',
+  walk() {
+    console.log(this); // This will return the person object
+  }
+};
+
+person1.walk(); // This will return a reference to the person object
+
+const walk = person1.walk; // This will return a reference to the walk function
+console.log(walk);
+walk(); // This will return the global object which is the window object in the browser and the global object in Node.js
