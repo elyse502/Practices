@@ -48,6 +48,7 @@ const targetMember = 'name';
 person[targetMember.value] = 'Eric';
 console.log(person.name); // Eric
 
+
 // The "This" keyword
 const person1 = {
   name: 'Elysee',
