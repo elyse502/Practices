@@ -45,11 +45,12 @@ person.name = ''; // This is another way to change the value of a property in an
 
 // This is how you can access a property in an object using a variable
 const targetMember = 'name';
-person[targetMember.value] = 'Eric';
+person[targetMember.value] = 'Eric'; // This will change the value of the name property to Eric
 console.log(person.name); // Eric
 
 
 // The "This" keyword
+console.log('>> The "This" keyword');
 const person1 = {
   name: 'Elysee',
   walk() {
@@ -62,3 +63,25 @@ person1.walk(); // This will return a reference to the person object
 const walk = person1.walk; // This will return a reference to the walk function
 console.log(walk);
 walk(); // This will return the global object which is the window object in the browser and the global object in Node.js
+
+
+// Binding "This"
+console.log('>> Binding "This"');
+const person2 = {
+  name: 'Elysee',
+  walk() {
+    console.log(this);
+  }
+};
+
+person2.walk(); // This will return a reference to the person object
+
+const walk2 = person2.walk.bind(person2); // With bind method, we can set the value of "this" permanently. So when we call bind on the walk function, we get a new walk function and in that walk function, the value of "this" is based on the argument that we pass to the bind method
+walk2(); // This will return a reference to the person object
+
+
+// Arrow functions
+console.log('>> Arrow functions');
+const square = function(number) {
+  return number * number;
+};
