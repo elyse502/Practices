@@ -3,6 +3,19 @@
 // const -> block-scoped
 
 
+// var is function-scoped
+console.log('var is function-scoped');
+function start() {
+  for (var i = 0; i < 2; i++) {
+    console.log(i);
+  }
+console.log(i);
+}
+start();
+
+
+// let is block-scoped
+console.log('let is block-scoped');
 function sayHello() {
   for (let i = 0; i < 5; i++) {
     console.log(i);
