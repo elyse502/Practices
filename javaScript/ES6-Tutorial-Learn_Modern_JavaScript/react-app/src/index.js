@@ -166,6 +166,16 @@ const street = address.street;
 const city = address.city;
 const country = address.country;
 
+console.log(street, city, country); // This will return an empty string for each of the variables above
+
 // This is a better way to do the same thing above
 const { street: st, city: ct, country: cn } = address; // This is called object destructuring
 console.log(st, ct, cn); // This will return an empty string for each of the variables above
+
+
+// Spread Operator
+console.log('>> Spread Operator');
+const first = [1, 2, 3];
+const second = [4, 5, 6];
+
+// One way to combine the two arrays above
