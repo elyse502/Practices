@@ -179,3 +179,26 @@ const first = [1, 2, 3];
 const second = [4, 5, 6];
 
 // One way to combine the two arrays above
+const combined = first.concat(second);
+console.log(combined);
+
+// Another way to combine the two arrays above using the spread operator
+const combined2 = [...first, 'a', ...second, 'b']; // This is called the spread operator (You can even add new items to the array using the spread operator)
+console.log(combined2);
+
+// Using the spread operator to clone an array
+const clone = [...first];
+console.log(first);
+console.log(clone);
+
+// You also apply the spread operator to objects
+const firstObj = { name: 'Elysee' };
+const secondObj = { job: 'Software Developer' };
+
+const combinedObj = { ...firstObj, ...secondObj, location: 'Rwanda' }; // This is called the spread operator
+console.log(combinedObj);
+
+// Similarly, you can use the spread operator to clone an object
+const cloneObj = { ...firstObj };
+console.log(firstObj);
+console.log(cloneObj);
