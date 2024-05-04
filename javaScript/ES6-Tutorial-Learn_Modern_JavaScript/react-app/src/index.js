@@ -85,6 +85,7 @@ console.log('>> Arrow functions');
 const square = function(number) { // This is a regular function(Old JavaScript)
   return number * number;
 };
+console.log(square(3));
 
 const square1 = number => number * number; // This is an arrow function(New JavaScript)
 console.log(square1(5));
@@ -97,6 +98,7 @@ const jobs = [
 ];
 
 const activeJobs = jobs.filter(function(job) { return job.isActive; }); // This is a regular function(Old JavaScript)
+console.log(activeJobs);
 const activeJobs1 = jobs.filter(job => job.isActive); // This is an arrow function(New JavaScript)
 console.log(activeJobs1);
 
@@ -135,3 +137,18 @@ const person5 = {
 };
 
 person5.talk(); // This will return the person object
+
+
+// Array.map method
+console.log('>> Array.map method');
+const colors = ['red', 'green', 'blue'];
+// Using a regular function
+const items = colors.map(function(color) {
+  return '<li>' + color + '</li>';
+}); // This will return an array of strings
+console.log(items);
+
+// Using an arrow function
+const items2 = colors.map((color) => `<li>${color}</li>`); // This will return an array of strings(in form of template literals)
+console.log(items2);
+
