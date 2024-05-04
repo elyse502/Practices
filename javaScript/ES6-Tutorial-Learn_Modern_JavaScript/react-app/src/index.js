@@ -152,3 +152,20 @@ console.log(items);
 const items2 = colors.map((color) => `<li>${color}</li>`); // This will return an array of strings(Written in form of template literals)
 console.log(items2);
 
+
+// Object Destructuring
+console.log('>> Object Destructuring');
+const address = {
+  street: '',
+  city: '',
+  country: ''
+};
+
+// This is repetitive
+const street = address.street;
+const city = address.city;
+const country = address.country;
+
+// This is a better way to do the same thing above
+const { street: st, city: ct, country: cn } = address; // This is called object destructuring
+console.log(st, ct, cn); // This will return an empty string for each of the variables above
