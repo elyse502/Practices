@@ -202,3 +202,21 @@ console.log(combinedObj);
 const cloneObj = { ...firstObj };
 console.log(firstObj);
 console.log(cloneObj);
+
+
+// Classes
+console.log('>> Classes');
+// This is a class declaration
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+
+  walk() {
+    console.log('walk');
+  }
+}
+
+const person6 = new Person('Elysee'); // That new keyword is used to create an instance of a class
+console.log(person6.name);
+person6.walk();
