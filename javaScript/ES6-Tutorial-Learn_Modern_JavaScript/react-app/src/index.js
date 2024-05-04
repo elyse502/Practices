@@ -149,6 +149,6 @@ const items = colors.map(function(color) {
 console.log(items);
 
 // Using an arrow function
-const items2 = colors.map((color) => `<li>${color}</li>`); // This will return an array of strings(in form of template literals)
+const items2 = colors.map((color) => `<li>${color}</li>`); // This will return an array of strings(Written in form of template literals)
 console.log(items2);
 
