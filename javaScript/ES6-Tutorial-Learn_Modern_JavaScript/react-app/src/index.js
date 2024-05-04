@@ -220,3 +220,23 @@ class Person {
 const person6 = new Person('Elysee'); // That new keyword is used to create an instance of a class
 console.log(person6.name);
 person6.walk();
+
+
+// Inheritance OR Composition
+console.log('>> Inheritance');
+// This is a class declaration
+class Teacher extends Person { // The extends keyword is used to inherit from another class
+  constructor(name, degree) { // The constructor method is a special method for creating and initializing an object created with a class
+    super(name); // The super keyword is used to call the constructor of the parent class
+    this.degree = degree;
+  }
+
+  teach() {
+    console.log('teach');
+  }
+}
+
+const teacher = new Teacher('Elysee', 'MSc');
+teacher.walk();
+teacher.teach();
+console.log(teacher.degree);
