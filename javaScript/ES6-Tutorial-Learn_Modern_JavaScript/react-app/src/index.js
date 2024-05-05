@@ -240,3 +240,14 @@ const teacher = new Teacher('Elysee', 'MSc');
 teacher.walk();
 teacher.teach();
 console.log(teacher.degree);
+
+
+// Modules
+console.log('>> Modules');
+// This is a module declaration
+import { Teacher } from './teacher'; // The import keyword is used to import modules
+
+const teacher2 = new Teacher('Elysee', 'MSc');
+teacher2.walk();
+teacher2.teach();
+console.log(teacher2.degree);
