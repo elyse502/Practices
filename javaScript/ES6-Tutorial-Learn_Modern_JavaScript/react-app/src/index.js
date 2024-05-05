@@ -1,3 +1,4 @@
+import { Teacher1 } from './teacher'; // Used on line 248......
 // var -> function-scoped
 // let -> block-scoped
 // const -> block-scoped
@@ -244,10 +245,14 @@ console.log(teacher.degree);
 
 // Modules
 console.log('>> Modules');
-// This is a module declaration
-import { Teacher } from './teacher'; // The import keyword is used to import modules
+// This is a module declaration(On top of this file)
 
-const teacher2 = new Teacher('Elysee', 'MSc');
-teacher2.walk();
-teacher2.teach();
-console.log(teacher2.degree);
+const teacher1 = new Teacher1('Elysee', 'MSc');
+teacher1.walk();
+teacher1.teach();
+console.log(teacher1.degree);
+
+
+// Named and Default exports
+console.log('>> Named and Default exports');
+// This is a module declaration(On top of this file)
