@@ -1,5 +1,8 @@
-import { Teacher1 } from './teacher'; // Used on line 248......
+import Teacher1 from './teacher'; // Used on line 248......
 import { promote } from './teacher'; // Used on line 259......
+// import Teacher1, { promote } from './teacher'; // Here we can use both default and named exports
+
+
 // var -> function-scoped
 // let -> block-scoped
 // const -> block-scoped
@@ -260,6 +263,9 @@ console.log('>> Named and Default exports');
 
 const teacher2 = promote();
 console.log(teacher2);
+
+// Default -> import ... from '';
+// Named -> import { ... } from '';
 
 /* We can export one or more objects from a given "module", these objects are called "named exports". So what is exported has a name like the "promote" function or the "Teacher1" class.
 
