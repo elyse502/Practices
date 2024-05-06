@@ -7,6 +7,7 @@
 
 Well **`Node`** is easy to get started and can be used for `prototyping` and `agile development`, but it can also be used for building `super fast` and `highly scalable` services. It is used in production by large companies such as `PayPal`, `Uber`, `Netlix`, `Walmart`,... So **`Node`** is an excellent choice for building `highly scalable` services, another reason for using **`Node`** is that in old applications we use `JavaScript`, so if you're a **Front-end Developer** and know `JavaScript` you can reuse your `JavaScript skills` and a **Transtion** to a `Full-stack` developer and get a better job with a better pay! You don't have to learn a new `programming language` also because you can use `JavaScript` both on the **Front-end** and on the **Back-end** your `source code` will be cleaner and more consistent, so you will use the same `naming conventions`, the same `tools` and the same `best practices` and finally another reason for using **`Node`** is that it has the largest `ecosystem` of `open source libraries` available to you! So for prettu much any **features** or **building blocks** you want to add to your `application`, there is some free `open source library` out there that you can use.
 
+![Screenshot 2024-05-06 161439](https://github.com/elyse502/Practices/assets/125453474/be06371a-3cfe-423f-85ba-409840d27fb4)
 
 
 
