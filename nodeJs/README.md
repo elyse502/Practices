@@ -79,6 +79,10 @@ Above it's mentioned that `Node applications` are **Highly-scalable** and this i
 
 
 
+https://github.com/elyse502/Practices/assets/125453474/3cb82345-707e-4bda-8a48-8b038ef3de25
+
+
+
 
 
 
