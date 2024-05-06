@@ -21,12 +21,13 @@ So above we learnt that **`Node`** is a **runtime environment** for executing `J
 
 ![Screenshot 2024-05-06 163736](https://github.com/elyse502/Practices/assets/125453474/c5a258d9-ec36-4194-9ff0-06f72b2482a2)
 
-For **example** `Micosoft Edge`  uses `chakra`, `Firefox` uses `SpiderMonkey` and `Chrome` uses `V8`
+For **example** `Micosoft Edge`  uses `chakra`, `Firefox` uses `SpiderMonkey` and `Chrome` uses `V8`.
 
 ![Screenshot 2024-05-06 164037](https://github.com/elyse502/Practices/assets/125453474/c570bb7a-153b-46cc-a025-f4bb2cab098c)
 
+And it's beacause of these **varieties** of `engines` that sometimes `JavaScript code` can behave differently in one `browser` or `another`. Now a `browser`provides a **runtime environment** for `JavaScript code`
 
-
+![Screenshot 2024-05-06 164808](https://github.com/elyse502/Practices/assets/125453474/baa18290-0374-472e-8df1-78a037b81830)
 
 
 
