@@ -75,7 +75,7 @@ http.createServer()
 ## How Node works?
 Above it's mentioned that `Node applications` are **Highly-scalable** and this is because of the `Non-blocking` or `ASYNCHRONOUS` nature of `Node`, what does it mean by `ASYNCHRONOUS` here is a **metaphor**; imagine you go to a restaurant a `waiter` comes to your `table` takes your `order` and gives it to the `kitchen` then they move on to serve another `table` while the `chef` is preparing your `meal`, so the same `person` can serve many different `tables`, they don't have to wait for the `chef` to cook one `meal` before they serve another `table`, this is what we call `Non-blocking` or `ASYNCHRONOUS` **architecture** and this is how `Node applications` work. The `waiter` is like a `thread` allocated ho handle a `request` so a single `thread` is used to handle multiple `requests`.
 
-In contrast to `Non-blocking` or `ASYNCHRONOUS` **architecture** we have `Blocking` or `SYNCHRONOUS` **architecture**, let's see how this one works; So back to our `restaurant` **example** imagine you go to another `restaurant` and in that `restaurant` a `waiter` is allocated to you, they take your `order` and give it to the `kitchen` now they are sitting in the `kitchen` waiting for the `chef` to prepare your `meal` at this time they're not doing anything else, they're just waiting, they're not going to take an `order` from another `table` until your `meal` is ready! This is what we call `Blocking` or `SYNCHRONOUS` **architecture**, and that's how `applications` built with `frameworks` like `ASP.NET` or `Rails` work out of the `box`. So when we receive a `request` on the `server` a `thread` is allocated to handle that `request`, as part of handling that `requests` it is likely that we're going to **query** a `database` and as you know sometimes it may take a little while until the result is ready, when the `database` is executing the **query** that `thread` is sitting there waiting. It can't be used to serve another `client`, so we need a new `thread` to serve another `client`
+In contrast to `Non-blocking` or `ASYNCHRONOUS` **architecture** we have `Blocking` or `SYNCHRONOUS` **architecture**, let's see how this one works; So back to our `restaurant` **example** imagine you go to another `restaurant` and in that `restaurant` a `waiter` is allocated to you, they take your `order` and give it to the `kitchen` now they are sitting in the `kitchen` waiting for the `chef` to prepare your `meal` at this time they're not doing anything else, they're just waiting, they're not going to take an `order` from another `table` until your `meal` is ready! This is what we call `Blocking` or `SYNCHRONOUS` **architecture**, and that's how `applications` built with `frameworks` like `ASP.NET` or `Rails` work out of the `box`. So when we receive a `request` on the `server` a `thread` is allocated to handle that `request`, as part of handling that `requests` it is likely that we're going to **query** a `database` and as you know sometimes it may take a little while until the result is ready, when the `database` is executing the **query** that `thread` is sitting there waiting. It can't be used to serve another `client`, so we need a new `thread` to serve another `client`.
 
 * `Non-blocking` OR `ASYNCHRONOUS` Architecture
 
@@ -89,10 +89,13 @@ https://github.com/elyse502/Practices/assets/125453474/3cb82345-707e-4bda-8a48-8
 
 https://github.com/elyse502/Practices/assets/125453474/d1e83b4e-4db2-4ff0-95f8-d293573e9c36
 
+Now imagine what would happen if we have a large number of `concurrent clients`, at som point we're going to run out of `threads` to serve these `clients`, so new `clients` have to wait until `three threads` are available or if we don't want them to wait, we need to add more `hardware` 
 
+![Screenshot 2024-05-06 183419](https://github.com/elyse502/Practices/assets/125453474/a1c0276b-d6af-4b47-af7d-a4d11d3e4b02)
 
+![Screenshot 2024-05-06 183636](https://github.com/elyse502/Practices/assets/125453474/493fd2fc-46e4-450b-9ad6-d0b7a14151ae)
 
-
+![Screenshot 2024-05-06 183821](https://github.com/elyse502/Practices/assets/125453474/f1b376f6-59d5-4a94-8ab6-48190b4385c5)
 
 
 
