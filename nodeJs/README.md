@@ -85,7 +85,7 @@ https://github.com/elyse502/Practices/assets/125453474/3cb82345-707e-4bda-8a48-8
 
 * `Blocking` OR `SYNCHRONOUS` Architecture
 
-
+![Screenshot 2024-05-06 181823](https://github.com/elyse502/Practices/assets/125453474/c78763f2-181d-44ed-88f9-282ae06ff7a2)
 
 https://github.com/elyse502/Practices/assets/125453474/d1e83b4e-4db2-4ff0-95f8-d293573e9c36
 
