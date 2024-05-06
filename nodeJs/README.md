@@ -16,11 +16,13 @@ So **`Node`** is an excellent choice for building `highly scalable` services, an
 
 
 ## Node Architecture
-So above we learnt that **`Node`** is a **runtime environment** for executing `JavaScript code`, but what is a **runtime environment** really? Well before **`Node`** we used `JavaScript` only to build `applications` that run inside of a `browser`, so every `browser` out there has what we call a `JavaScript Engine` That takes our `JavaScript code` and converts it to `code` that a `computer` can understand
+So above we learnt that **`Node`** is a **runtime environment** for executing `JavaScript code`, but what is a **runtime environment** really? Well before **`Node`** we used `JavaScript` only to build `applications` that run inside of a `browser`, so every `browser` out there has what we call a `JavaScript Engine` That takes our `JavaScript code` and converts it to `code` that a `computer` can understand.
 
 ![Screenshot 2024-05-06 163736](https://github.com/elyse502/Practices/assets/125453474/c5a258d9-ec36-4194-9ff0-06f72b2482a2)
 
+For **example** `Micosoft Edge`  uses `chakra`, `Firefox` uses `SpiderMonkey` and `Chrome` uses `V8`
 
+![Screenshot 2024-05-06 164037](https://github.com/elyse502/Practices/assets/125453474/c570bb7a-153b-46cc-a025-f4bb2cab098c)
 
 
 
