@@ -3,7 +3,7 @@
 
 ![Screenshot 2024-05-06 154500](https://github.com/elyse502/Practices/assets/125453474/a578d970-cd31-4903-a5ca-e36f1581f90a)
 
-
+`Node` is ideal for building **Highly-scalable**, **data-intensive** and **real-time apps/back-end sevices** that power our `client applications`. Now you might ask but there are other `tools` and `frameworks` out there for building `back-end` services such as **asp.net**, **rails** **Django**,... So what's special about `Node`?
 
 
 
