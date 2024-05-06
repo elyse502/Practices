@@ -77,9 +77,9 @@ Above it's mentioned that `Node applications` are **Highly-scalable** and this i
 
 In contrast to `Non-blocking` or `ASYNCHRONOUS` **architecture** we have `Blocking` or `SYNCHRONOUS` **architecture**, let's see how this one works; So back to our `restaurant` **example** imagine you go to another `restaurant` and in that `restaurant` a `waiter` is allocated to you, they take your `order` and give it to the `kitchen` now they are sitting in the `kitchen` waiting for the `chef` to prepare your `meal` at this time they're not doing anything else, they're just waiting, they're not going to take an `order` from another `table` until your `meal` is ready! This is what we call `Blocking` or `SYNCHRONOUS` **architecture**, and that's how `applications` built with `frameworks` like `ASP.NET` or `Rails` work out of the `box`. So
 
-![Screenshot 2024-05-06 174931](https://github.com/elyse502/Practices/assets/125453474/7972032d-074d-440f-8c46-c5f1ae207f69)
+* `Non-blocking` OR `ASYNCHRONOUS` Architecture
 
-* Non-blocking OR ASYNCHRONOUS Architecture
+![Screenshot 2024-05-06 174931](https://github.com/elyse502/Practices/assets/125453474/7972032d-074d-440f-8c46-c5f1ae207f69)
 
 https://github.com/elyse502/Practices/assets/125453474/3cb82345-707e-4bda-8a48-8b038ef3de25
 
