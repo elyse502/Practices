@@ -15,6 +15,7 @@
 
 ![Screenshot 2024-05-06 161439](https://github.com/elyse502/Practices/assets/125453474/be06371a-3cfe-423f-85ba-409840d27fb4)
 
+---
 
 ## Node Architecture
 So above we learnt that **`Node`** is a **runtime environment** for executing `JavaScript code`, but what is a **runtime environment** really? Well before **`Node`** we used `JavaScript` only to build `applications` that run inside of a `browser`, so every `browser` out there has what we call a `JavaScript Engine` That takes our `JavaScript code` and converts it to `code` that a `computer` can understand.
