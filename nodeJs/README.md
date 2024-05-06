@@ -89,7 +89,7 @@ https://github.com/elyse502/Practices/assets/125453474/3cb82345-707e-4bda-8a48-8
 
 https://github.com/elyse502/Practices/assets/125453474/d1e83b4e-4db2-4ff0-95f8-d293573e9c36
 
-Now imagine what would happen if we have a large number of `concurrent clients`, at som point we're going to run out of `threads` to serve these `clients`, so new `clients` have to wait until `three threads` are available or if we don't want them to wait, we need to add more `hardware` 
+Now imagine what would happen if we have a large number of `concurrent clients`, at some point we're going to run out of `threads` to serve these `clients`, so new `clients` have to wait until `three threads` are available or if we don't want them to wait, we need to add more `hardware`, So with this kind of **architecture** we are not utilizing our resources efficiently. This is the problem with `Blocking` or `SYNCHRONOUS` **architecture** and as expalined that's how `applications` built with `frameworks` like `ASP.NET` work by default of course in `ASP.NET`, it is possible to use `ASYNCHRONOUS` **architecture** but you will have to do extra work for now, in contrast `Node applications` are **asynchronous** by default, so you don't have to do anything extra.
 
 ![Screenshot 2024-05-06 183419](https://github.com/elyse502/Practices/assets/125453474/a1c0276b-d6af-4b47-af7d-a4d11d3e4b02)
 
@@ -97,8 +97,9 @@ Now imagine what would happen if we have a large number of `concurrent clients`,
 
 ![Screenshot 2024-05-06 183821](https://github.com/elyse502/Practices/assets/125453474/f1b376f6-59d5-4a94-8ab6-48190b4385c5)
 
+In `Node` we have a single `thread` to handle all `requests`, when a `request` arrives that single `thread` is used to handle that `request`, if you need to **query** a `database` or `thread` doesn't have to wait for the `database` to return the `data`. 
 
-
+![Screenshot 2024-05-06 195618](https://github.com/elyse502/Practices/assets/125453474/2a17b2fa-87d2-499d-bc69-48028c064756)
 
 
 
