@@ -83,6 +83,19 @@ In contrast to `Non-blocking` or `ASYNCHRONOUS` **architecture** we have `Blocki
 
 https://github.com/elyse502/Practices/assets/125453474/3cb82345-707e-4bda-8a48-8b038ef3de25
 
+* `Blocking` OR `SYNCHRONOUS` Architecture
+
+
+
+https://github.com/elyse502/Practices/assets/125453474/d1e83b4e-4db2-4ff0-95f8-d293573e9c36
+
+
+
+
+
+
+
+
 
 
 
