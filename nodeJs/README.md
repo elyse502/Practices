@@ -107,14 +107,19 @@ While the `database` is executing our `query` that `thread` will be used to serv
 
 ![Screenshot 2024-05-06 200058](https://github.com/elyse502/Practices/assets/125453474/927acb34-25fa-490d-bc57-e715a9fab944)
 
-**`Node Js`** is continuously monitoring this `queue` in the **background**, when it finds an event in this `queue` it will take
+**`Node Js`** is continuously monitoring this `queue` in the **background**, when it finds an event in this `queue` it will take it out and process it, this kind of **architecture** makes `Node` ideal for building `applications` that include a lot of `disk` or `network` **access**.
 
 ![Screenshot 2024-05-06 200429](https://github.com/elyse502/Practices/assets/125453474/822518a5-bc7e-4b22-be8c-1247ca8b3202)
 
+![Screenshot 2024-05-06 200807](https://github.com/elyse502/Practices/assets/125453474/c7c56b40-90aa-43c2-a784-0b61084bb934)
 
+* We can serve more `clients` without the need to throw in more `hardware` and that's why `Node applications` are **Highly-scalable** 
 
+![Screenshot 2024-05-06 201209](https://github.com/elyse502/Practices/assets/125453474/3487e1f0-9fd7-46f0-8891-41c4e3338635)
 
+* In contrast **`Node`** should not be used for `CPU`
 
+![Screenshot 2024-05-06 201454](https://github.com/elyse502/Practices/assets/125453474/3a9d6f3d-6d74-461e-9ee7-585baa2e84ed)
 
 
 
