@@ -70,7 +70,10 @@ http.createServer()
 
 ![Screenshot 2024-05-06 173520](https://github.com/elyse502/Practices/assets/125453474/6fc9b779-5669-4b84-b638-e91971b5d012)
 
+---
 
+## How Node works?
+Above it's mentioned that `Node applications` are **Highly-scalable** and this is because of the `Non-blocking` or `ASYNCHRONOUS` nature of `Node`, what does it mean by `ASYNCHRONOUS` here is a **metaphor**; imagine you go to a restaurant a `waiter` comes to your `table` takes your `order` and gives it to the `kitchen` then they move on to serve another `table` while the `chef` is preparing your `meal`, so the same `person` can serve many different `tables`, they don't have to wait for the `chef` to cook one `meal` before they serve another `table`, this is what we call `Non-blocking` or `ASYNCHRONOUS` **architecture** and this is how `Node applications` work. The `waiter` is like a `thread` allocated ho handle a `request` so a single `thread` is used to handle multiple `requests`, in contrast 
 
 
 
