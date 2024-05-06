@@ -35,7 +35,7 @@ document.getElementById('');
 ```
 * Now up to `2009` the only way to execute `JavaScript code` was inside of a `browser`.
   * In `2009` **`Ryan Dahl`** the creator of **`Node`** came up with a `brilliant idea`, he thought it would be great to execute `JavaScript` outside of a `browser`, so he took `Google's V8 Engine` which is the fastest `JavaScript Engine` out there and embedded it inside a `C++ program` and called that **program** `Node`. So similar to a `browser` **`Node`** is a **runtime environment** for `JavaScript code`, it contains a `JavaScript Engine` that can execute our `JavaScript code`, but it also has certain `objects` that provide an **environment** for our `JavaScript code`. But these `objects` are different from the `environment objects` we have in `browsers`, for **example:**
-    * We don't have the `document object`, instead we have other `objects` that give us more interesting **capabilities**, for **example**; We can work with `file system`, listen for `requests` on a given `port`,... We can't do stuff like thet inside of a `browser`, right?
+    * We don't have the `document object`, instead we have other `objects` that give us more interesting **capabilities**, for **example**; We can work with `file system`, listen for `requests` on a given `port`,... We can't do stuff like that inside of a `browser`, right?
 
 **`browser's object:`**
 ```groovy
