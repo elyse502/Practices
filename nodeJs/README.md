@@ -107,8 +107,9 @@ While the `database` is executing our `query` that `thread` will be used to serv
 
 ![Screenshot 2024-05-06 200058](https://github.com/elyse502/Practices/assets/125453474/927acb34-25fa-490d-bc57-e715a9fab944)
 
+**`Node Js`** is continuously monitoring this `queue` in the **background**, when it finds an event in this `queue` it will take
 
-
+![Screenshot 2024-05-06 200429](https://github.com/elyse502/Practices/assets/125453474/822518a5-bc7e-4b22-be8c-1247ca8b3202)
 
 
 
