@@ -33,11 +33,14 @@ So above we learnt that **`Node`** is a **runtime environment** for executing `J
 ```groovy
 document.getElementById('');
 ```
-* Now up to `2009` the only way to execute `JavaScript code` was inside of a `browser` 
+* Now up to `2009` the only way to execute `JavaScript code` was inside of a `browser`.
+  * In `2009` **`Ryan Dahl`** the creator of **`Node`** came up with a `brilliant idea`, he thought it would be great to execute `JavaScript` outside of a `browser`, so he took `Google's V8 Engine` which is the fastest `JavaScript Engine` out there and embedded it inside a `C++ program` and called that **program** `Node`.
 
 ![Screenshot 2024-05-06 165400](https://github.com/elyse502/Practices/assets/125453474/67f2b73e-e3cc-46bf-99a2-e4ee90cd76cd)
 
+* **`Ryan Dahl's`** brilliant idea:
 
+![Screenshot 2024-05-06 170057](https://github.com/elyse502/Practices/assets/125453474/721dc16d-ee49-4afe-b365-fe68bf15afa5)
 
 
 
