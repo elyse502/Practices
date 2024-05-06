@@ -113,17 +113,17 @@ While the `database` is executing our `query` that `thread` will be used to serv
 
 ![Screenshot 2024-05-06 200807](https://github.com/elyse502/Practices/assets/125453474/c7c56b40-90aa-43c2-a784-0b61084bb934)
 
-* We can serve more `clients` without the need to throw in more `hardware` and that's why `Node applications` are **Highly-scalable** 
+* We can serve more `clients` without the need to throw in more `hardware` and that's why `Node applications` are **Highly-scalable**. 
 
 ![Screenshot 2024-05-06 201209](https://github.com/elyse502/Practices/assets/125453474/3487e1f0-9fd7-46f0-8891-41c4e3338635)
 
-* In contrast **`Node`** should not be used for `CPU`
+* In contrast **`Node`** should not be used for `CPU-intensive` **applications** like a `video encoding` or an `image manipulation service`, in this kind of applications we have a lot of calcuations that should be done by `CPU` and few `operations` that touch the `file system` or the `network`
 
 ![Screenshot 2024-05-06 201454](https://github.com/elyse502/Practices/assets/125453474/3a9d6f3d-6d74-461e-9ee7-585baa2e84ed)
 
+* Since `Node applications` are single `threaded` when performing the calculation to serve one `client` other `clients` have to wait, and that's why `Node` should not be used for `CPU-intensive` **applications**. It should only be used for building `data-intensive` and `real-time` **applications**.
 
-
-
+![Screenshot 2024-05-06 202342](https://github.com/elyse502/Practices/assets/125453474/0812ba13-d0da-4c9a-b394-34ee303fa786)
 
 
 
