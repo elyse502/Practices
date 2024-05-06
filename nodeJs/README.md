@@ -73,11 +73,13 @@ http.createServer()
 ---
 
 ## How Node works?
-Above it's mentioned that `Node applications` are **Highly-scalable** and this is because of the `Non-blocking` or `ASYNCHRONOUS` nature of `Node`, what does it mean by `ASYNCHRONOUS` here is a **metaphor**; imagine you go to a restaurant a `waiter` comes to your `table` takes your `order` and gives it to the `kitchen` then they move on to serve another `table` while the `chef` is preparing your `meal`, so the same `person` can serve many different `tables`, they don't have to wait for the `chef` to cook one `meal` before they serve another `table`, this is what we call `Non-blocking` or `ASYNCHRONOUS` **architecture** and this is how `Node applications` work. The `waiter` is like a `thread` allocated ho handle a `request` so a single `thread` is used to handle multiple `requests`, in contrast 
+Above it's mentioned that `Node applications` are **Highly-scalable** and this is because of the `Non-blocking` or `ASYNCHRONOUS` nature of `Node`, what does it mean by `ASYNCHRONOUS` here is a **metaphor**; imagine you go to a restaurant a `waiter` comes to your `table` takes your `order` and gives it to the `kitchen` then they move on to serve another `table` while the `chef` is preparing your `meal`, so the same `person` can serve many different `tables`, they don't have to wait for the `chef` to cook one `meal` before they serve another `table`, this is what we call `Non-blocking` or `ASYNCHRONOUS` **architecture** and this is how `Node applications` work. The `waiter` is like a `thread` allocated ho handle a `request` so a single `thread` is used to handle multiple `requests`.
+
+In contrast to `Non-blocking` or `ASYNCHRONOUS` **architecture** we have `Blocking` or `SYNCHRONOUS` **architecture**, let's see how this one works; So back to our `restaurant` **example** imagine you go to another `restaurant` and in that `restaurant` a `waiter` is allocated to you, they take your `order` and give it to the `kitchen` now they are sitting in the `kitchen` waiting for the `chef` to prepare your `meal` at this time they're not doing anything else, they're just waiting, they're not going to take an `order` from another `table` until your `meal` is ready! This is what we call `Blocking` or `SYNCHRONOUS` **architecture**, and that's how `applications` built with `frameworks` like `ASP.NET` or `Rails` work out of the `box`. So
 
 ![Screenshot 2024-05-06 174931](https://github.com/elyse502/Practices/assets/125453474/7972032d-074d-440f-8c46-c5f1ae207f69)
 
-
+* Non-blocking OR ASYNCHRONOUS Architecture
 
 https://github.com/elyse502/Practices/assets/125453474/3cb82345-707e-4bda-8a48-8b038ef3de25
 
