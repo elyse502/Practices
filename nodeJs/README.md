@@ -101,7 +101,7 @@ In `Node` we have a single `thread` to handle all `requests`, when a `request` a
 
 ![Screenshot 2024-05-06 195618](https://github.com/elyse502/Practices/assets/125453474/2a17b2fa-87d2-499d-bc69-48028c064756)
 
-While the `database` is executing our `query` that `thread` will be used to serve another `client`, when the `darabase` prepares the **result** it puts a message in what we call an `Event queue`.
+While the `database` is executing our `query` that `thread` will be used to serve another `client`, when the `database` prepares the **result** it puts a message in what we call an `Event queue`.
 
 ![Screenshot 2024-05-06 200016](https://github.com/elyse502/Practices/assets/125453474/ed7a5a93-30e4-49f0-ba75-4abb82b3e272)
 
