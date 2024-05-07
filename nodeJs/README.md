@@ -58,7 +58,7 @@ http.createServer()
 ![Screenshot 2024-05-06 170057](https://github.com/elyse502/Practices/assets/125453474/721dc16d-ee49-4afe-b365-fe68bf15afa5)
 
 * In `essence` **`Node`** is a `program` that includes the `V8 JavaScript Engine` plus some additional `modules` that give us **capabilities** not available inside `browsers`, we can work with the `file system` or the `network`,... Both `Chrome` and `Node` share the same `JavaScript Engine`, but they provide different **runtime environments** for `JavaScript`.
-  * Some people compare **`Node`** to `C#` or `Ruby` or some other `Programming Languages`, but these **comparisons** are fundamentally **wrong!** Because **`Node`**  is not a `programming language`, it's like comparing a `car` with an `apple`. By the same `token` **`Node`** should not be compared with `frameworks` such as `ASP.NET` or `Rails` or `Django`,... These are `frameworks` for building `web applications`. **`Node`** is not a `framework`, it's a `runtime environment` for executing `JavaScript code`
+  * Some people compare **`Node`** to `C#` or `Ruby` or some other `Programming Languages`, but these **comparisons** are fundamentally **wrong!** Because **`Node`**  is not a `programming language`, it's like comparing a `car` with an `apple`. By the same `token` **`Node`** should not be compared with `frameworks` such as `ASP.NET` or `Rails` or `Django`,... These are `frameworks` for building `web applications`. **`Node`** is not a `framework`, it's a **runtime environment** for executing `JavaScript code`
 
 ![Screenshot 2024-05-06 172419](https://github.com/elyse502/Practices/assets/125453474/7e9b3274-dbf5-40fd-9bca-ca062d865e25)
 
