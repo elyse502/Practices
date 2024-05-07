@@ -4,7 +4,7 @@
 
 ![Screenshot 2024-05-06 154500](https://github.com/elyse502/Practices/assets/125453474/a578d970-cd31-4903-a5ca-e36f1581f90a)
 
-`Node` is ideal for building **Highly-scalable**, **data-intensive** and **real-time apps/back-end sevices** that power our `client applications`. Now you might ask but there are other `tools` and `frameworks` out there for building `back-end` services such as **asp.net**, **rails** **Django**,... So what's special about `Node`?
+`Node` is ideal for building **Highly-scalable**, **data-intensive** and **real-time apps/back-end sevices** that power our `client applications`. Now you might ask but there are other `tools` and `frameworks` out there for building `back-end` services such as **asp.net**, **rails** & **Django**,... So what's special about `Node`?
 
 * Well **`Node`** is easy to get started and can be used for `prototyping` and `agile development`, but it can also be used for building `super fast` and `highly scalable` services. It is used in production by large companies such as `PayPal`, `Uber`, `Netflix`, `Walmart`,... In fact at `PayPal` they rebuilt one of their `Java` and `spring` based **applications** using **`Node Js`** and they found that the `Node` application was built twice as fast with fewer people in 33% fewer lines of code and 40% fewer files and more importantly they doubled the number requests served per second while decreasing the average response time by 35%. So **`Node`** is an excellent choice for building `highly scalable` services
 
