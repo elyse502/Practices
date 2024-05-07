@@ -37,6 +37,7 @@ console.log(globalThis.message); */
 const logger = require('./logger'); // We use "const" to declare a constant variable, to avoid to accidentally over write the value of "logger" variable
 
 // console.log(logger);
-logger.log("message");
+logger.log("message"); // We can call the "log" function from "logger.js" file by using the "log" function
+// logger("message"); // We can directly call the "log" function from "logger.js" file
 
 
