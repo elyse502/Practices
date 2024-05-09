@@ -1,3 +1,6 @@
+console.log(__filename); // __filename is a global object that represents the file name
+console.log(__dirname); // __dirname is a global object that represents the directory name
+
 
 var url = 'http://mylogger.io/log';
 
