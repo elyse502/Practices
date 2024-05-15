@@ -18,7 +18,6 @@ switch (dayOfWeek) {
         break;
     default:
         console.log("It's a weekend");
-        break;
 }*/
 
 
@@ -36,11 +35,10 @@ switch (dayOfWeek) {
                     break;
                 default:
                     console.log("It's a weekend");
-                    break;
 }*/
 
 
-const value = "Elysee";
+const value = null;
 
 switch (typeof value) {
     case "number":
@@ -54,5 +52,4 @@ switch (typeof value) {
         break;
     default:
         console.log("It's something else");
-        break;
 }
