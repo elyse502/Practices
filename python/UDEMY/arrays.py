@@ -77,6 +77,7 @@ print(fruits[-3:-1])
 
 # Declaring and defining multi-dimensional arrays
 multd = [[1,2], [3,4], [5,6], [7,8]]
+print(multd)
 print(multd[0])
 print(multd[3])
 print(multd[2][1])
