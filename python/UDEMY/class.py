@@ -29,7 +29,7 @@ print((cmplx2.real_part, cmplx2.imaginary_part, cmplx2.new_attribute))
 # AttributeError: 'MyComplexNumber' object has no attribute 'new_attribute'
 # cmplx1.new_attribute
 
-# Deleting object attributes and the object
+# Deleting object attributes and the object itself
 print(cmplx1)
 del cmplx1.real_part
 del cmplx1
