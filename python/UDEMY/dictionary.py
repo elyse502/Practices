@@ -1,4 +1,5 @@
 # Tutorial 11- Python Dictionary
+
 new_dict = {1:"Hello", 2:"Hi", 3:"Hola"}
 print(new_dict)
 print(new_dict[1])
