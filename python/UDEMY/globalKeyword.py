@@ -13,4 +13,4 @@ def funct1():
     print("After calling funct2: ", x)
 
 funct1()
-print("x in main: ", x)
+print("x in main : ", x)
