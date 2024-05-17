@@ -1,3 +1,5 @@
+# Tutorial 15- Python Namespace and scope
+
 # Name (also called identifier) is simply a name given to objects.
 
 # We can get the address (in RAM) of some object through the built-infunction, id().
