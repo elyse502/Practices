@@ -95,3 +95,39 @@ print("c:\\User\\user\\mydata.txt")
 print("this line is having a new line \ncharacter")
 print("this line is having a tab \t character")
 print("ABC written in \x41\x42\x43 (HEX) representation")
+
+
+# format() method for string formatting
+# default(implicit) order
+default_order = "{} {} and {}".format('Today', 'is', 'Sunday')
+print(default_order)
+
+# order using positional argument
+positional_order = "{1} {0} and {2}".format('is', 'Today', 'Sunday')
+print(positional_order)
+
+# order using keyword argument
+keyword_order = "{t} {i} and {s}".format(i='is', t='Today', s='Sunday')
+print(keyword_order)
+
+
+# formatting numbers
+print("Required binary representation of {0} is {0:b}".format(20))
+
+# formatting floats
+print("Exponential representation of {0} is {0:e}".format(1566.345))
+
+# round off
+print("One third is: {0:.3f}".format(1/3))
+
+
+# string methods
+print("gOOD moRNing tO alL".lower())
+print("gOOD moRNing tO alL".upper())
+print("gOOD moRNing tO alL".title())
+print("gOOD moRNing tO alL".capitalize())
+print("gOOD moRNing tO alL".find('tO'))
+print("gOOD moRNing tO alL".find('to'))
+print("gOOD moRNing tO alL".replace('alL', 'everybody'))
+print("gOOD moRNing tO alL".replace('all', 'everybody'))
+print("gOOD moRNing tO alL".split())
