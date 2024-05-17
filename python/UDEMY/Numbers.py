@@ -23,6 +23,10 @@ print(0b1101)
 print(0xab)
 print(0o23)
 
+print(0B1101)
+print(0Xab)
+print(0O23)
+
 print(10 + 33.4)
 
 
