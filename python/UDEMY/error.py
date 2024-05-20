@@ -32,7 +32,7 @@ except TypeError:
 # try..finally
 try:
     print("In try block")
-    # raise TypeError
+    raise TypeError
 except:
     print("In except block")
 finally:
