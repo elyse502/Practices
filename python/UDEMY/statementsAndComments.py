@@ -28,6 +28,7 @@ print(c)
 
 # Multiple statements in one line using - ';'
 d = 1; e = 3; f = 0
+print(d, e, f)
 
 
 # Code block (body of a function, loop etc.) starts with indentation
