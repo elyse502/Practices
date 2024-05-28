@@ -15,7 +15,6 @@ def setcookie():
         user = request.form['nm']
         resp = make_response(render_template('readcookie.html'))
         resp.set_cookie('userID', user)
-        
         return resp
     
 @app.route('/getcookie')
