@@ -23,4 +23,4 @@ def getcookie():
     return '<h1>welcome '+name+'</h1>'
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug = True)
