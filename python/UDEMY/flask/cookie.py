@@ -19,8 +19,18 @@ def setcookie():
     
 @app.route('/getcookie')
 def getcookie():
+    """
+    Get the value of the 'userID' cookie from the request and return a welcome message if the cookie exists,
+    otherwise return a message indicating that no cookie was found.
+
+    :return: A string containing a welcome message if the 'userID' cookie exists, otherwise a message indicating
+             that no cookie was found.
+    """
     name = request.cookies.get('userID')
-    return '<h1>welcome '+name+'</h1>'
+    if name:
+        return '<h1>welcome {}</h1>'.format(name)
+    else:
+        return '<h1>No cookie found</h1>'
 
 if __name__ == '__main__':
     app.run(debug = True)
