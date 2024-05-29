@@ -1,4 +1,4 @@
-# #!/home/elysee_niyibizi/Practices/python/UDEMY/flask/flaskenv/bin/python3
+#!/home/elysee_niyibizi/Practices/python/UDEMY/flask/flaskenv/bin/python3
 
 from flask import Flask, redirect, url_for, render_template, request
 
