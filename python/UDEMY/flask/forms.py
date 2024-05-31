@@ -1,4 +1,3 @@
-#!/home/elysee_niyibizi/Practices/python/UDEMY/flask/flaskenv/bin/python3
 # Tutorial 61-Flask WTF Extension
 
 from flask_wtf import FlaskForm
