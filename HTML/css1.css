@@ -1,0 +1,14 @@
+p{
+    color: red;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+#we{
+    color: green;
+    font-weight: bold;
+    font-size: 34px;
+    border: 2px groove red;
+    padding: 12px;
+    margin: 7px;
+}
