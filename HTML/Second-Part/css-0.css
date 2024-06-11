@@ -1,8 +1,10 @@
 body {
-    background-color: gray;
+    /* background-color: gray; */
+    background-image: url(images/mountain1.jpg);
+    background-size: cover; /* 100% 100% */
 }
 
-h4 {
+h3 {
     color: aqua;
     background-color: blue;
 }
@@ -14,4 +16,9 @@ p {
 #paragraph {
     color: green;
     background-color: yellow;
+}
+
+div {
+    background-color: red;
+    opacity: 50%;
 }
