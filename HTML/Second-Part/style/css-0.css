@@ -1,6 +1,6 @@
 body {
     /* background-color: gray; */
-    background-image: url(images/mountain1.jpg);
+    background-image: url(../images/mountain1.jpg);
     background-size: cover; /* 100% 100% */
 }
 
