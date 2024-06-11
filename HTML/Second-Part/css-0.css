@@ -1,0 +1,17 @@
+body {
+    background-color: gray;
+}
+
+h4 {
+    color: aqua;
+    background-color: blue;
+}
+
+p {
+    background-color: blueviolet;
+}
+
+#paragraph {
+    color: green;
+    background-color: yellow;
+}
