@@ -5,6 +5,14 @@ const Home = () => {
     // let name = "John Doe";
     const [name, setName] = useState("John Doe");
 
+    const [count, setCount] = useState(0);
+    function increaseCount() {
+        setCount(count + 1);
+    }
+    function decreaseCount() {
+        setCount(count - 1);
+    }
+
     const handleClick = () => {
         // name = "Jane Doe";
         // console.log(name);
@@ -20,18 +28,26 @@ const Home = () => {
             <Example name="Jack" age="25" job="Full-Stack Dev"/><br /><br />
             
             
+            {/* Props Project Challenge */}
             <Library Title="To kill The Mockingbird"
             Author="Harper Lee" Description="A classic novel about racial injustice in deep south" Date="2021-01-01" />
             <Library Title="The Great Gatsby" Author="F. Scott Fitzgerald" Description="A novel about the American Dream's corruption" Date="2022-01-01" />
             <Library Title="The Catcher in the Rye" Author="J.D. Salinger" Description="A novel about the consequences of the Great Depression" Date="2023-01-01" /><br /><br />
 
 
+            <h1><u>React UseState</u></h1>
             <p>{name}</p>
-            <button onClick={handleClick}>Click me</button>
+            <button onClick={handleClick}>Click me</button><br /><br />
+
+            <button onClick={increaseCount}>Click Me to Increase</button>
+            <p> Count Is: {count}</p>
+
+            <button onClick={decreaseCount}>Click Me to Decrease</button>
         </div>
      );
 }
 
+// Improper way by hardcoding the data
 {/* const Example = () => {
     return ( 
         <div>
@@ -57,6 +73,7 @@ const Home = () => {
 }
 */}
 
+// Proper way by using props
 const Example = (props) => {
     return ( 
         <div>
