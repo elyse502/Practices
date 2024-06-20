@@ -1,5 +1,16 @@
 // import './Card.css';
+import { useState } from 'react';
 const Home = () => {
+
+    // let name = "John Doe";
+    const [name, setName] = useState("John Doe");
+
+    const handleClick = () => {
+        // name = "Jane Doe";
+        // console.log(name);
+        setName("Jane Doe");
+    }
+
     return ( 
         <div className="Home">
             <h2> Homepage</h2><br />
@@ -8,10 +19,15 @@ const Home = () => {
             <Example name="Emily" age="22" job="Back-End Dev"/>
             <Example name="Jack" age="25" job="Full-Stack Dev"/><br /><br />
             
+            
             <Library Title="To kill The Mockingbird"
             Author="Harper Lee" Description="A classic novel about racial injustice in deep south" Date="2021-01-01" />
             <Library Title="The Great Gatsby" Author="F. Scott Fitzgerald" Description="A novel about the American Dream's corruption" Date="2022-01-01" />
-            <Library Title="The Catcher in the Rye" Author="J.D. Salinger" Description="A novel about the consequences of the Great Depression" Date="2023-01-01" />
+            <Library Title="The Catcher in the Rye" Author="J.D. Salinger" Description="A novel about the consequences of the Great Depression" Date="2023-01-01" /><br /><br />
+
+
+            <p>{name}</p>
+            <button onClick={handleClick}>Click me</button>
         </div>
      );
 }
