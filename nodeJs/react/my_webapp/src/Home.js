@@ -1,3 +1,4 @@
+// import './Card.css';
 const Home = () => {
     return ( 
         <div className="Home">
@@ -5,7 +6,12 @@ const Home = () => {
             {/* <Example/> */}
             <Example name="John" age="23" job="Front-End Dev"/>
             <Example name="Emily" age="22" job="Back-End Dev"/>
-            <Example name="Jack" age="25" job="Full-Stack Dev"/>
+            <Example name="Jack" age="25" job="Full-Stack Dev"/><br /><br />
+            
+            <Library Title="To kill The Mockingbird"
+            Author="Harper Lee" Description="A classic novel about racial injustice in deep south" Date="2021-01-01" />
+            <Library Title="The Great Gatsby" Author="F. Scott Fitzgerald" Description="A novel about the American Dream's corruption" Date="2022-01-01" />
+            <Library Title="The Catcher in the Rye" Author="J.D. Salinger" Description="A novel about the consequences of the Great Depression" Date="2023-01-01" />
         </div>
      );
 }
@@ -41,6 +47,20 @@ const Example = (props) => {
             <h3>Name: {props.name}</h3><br />
             <h3>Age: {props.age}</h3><br />
             <h3>Job: {props.job}</h3><br /><hr />
+        </div>
+     );
+}
+
+// Props Project Challenge
+
+const Library = (props) => {
+    return ( 
+        <div className="Card">
+            <h2>{props.Title}</h2> <hr />
+            <h3>{props.Author}</h3> <hr />
+            <p>{props.Description}</p> <hr />
+            <p>{props.Date}</p>
+
         </div>
      );
 }
