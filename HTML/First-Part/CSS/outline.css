@@ -1,0 +1,19 @@
+.first-outline {
+    outline: 2px solid #007bff;
+    margin: 10px;
+    margin: 10px;
+}
+
+.second-outline {
+    outline: 3px dashed #ff6600;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.no-focus-outline {
+    outline: none;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
