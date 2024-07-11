@@ -1,0 +1,16 @@
+/* div {
+    width: 200px;
+    height: 65px;
+    background-color: coral;
+    overflow: visible;
+}
+div {
+    overflow: hidden;
+} */
+/* div {
+    overflow: scroll;
+} */
+div {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
