@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        div#myDiv {
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            position: relative; /* This is important! Otherwise the animation(move) will not work. */
+            animation-name: example;
+            animation-duration: 4s;
+            animation-delay: 2s; /* 2 seconds after the element is loaded */
+            animation-iteration-count: 3; /* 3 times, You can also use "infinite" */
+            animation-direction: alternate; /* "reverse" reverse the animation, you can also use "alternate"(for 2 times) or "alternate-reverse" */
+        }
+
+        /* @keyframes example {
+            from {background-color: red;}
+            to {background-color: yellow;}
+        } */
+        /* @keyframes example {
+            0% {background-color: red;}
+            25% {background-color: yellow;}
+            50% {background-color: blue;}
+            100% {background-color: green;}
+        } */
+        @keyframes example {
+            0% {background-color: red; left: 0px; top: 0px;}
+            25% {background-color: yellow; left: 200px; top: 0px;}
+            50% {background-color: blue; left: 200px; top: 200px;}
+            75% {background-color: green; left: 0px; top: 200px;}
+            100% {background-color: red; left: 0px; top: 0px;}
+        }
+    </style>
+</head>
+<body>
+    <div id="myDiv"></div>
+</body>
+</html>
