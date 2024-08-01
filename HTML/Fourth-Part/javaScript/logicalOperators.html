@@ -12,7 +12,10 @@
 
         var message = (uid == "John" && pwd == "12345") ? "Welcome John" : "Invalid Credentials";
         alert(message);
-        document.write(message); // Optional ....
+        document.write(message + "<br /><br />"); // Optional ....
+
+        var msg = !(uid == "JohnT" || uid == "Smith") ? "Enjoy your day!" : "Good to see you. Try again!";
+        document.write(msg);
     </script>
 </body>
 </html>
