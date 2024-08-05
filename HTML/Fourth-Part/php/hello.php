@@ -1,3 +1,9 @@
+<html>
+<head>
+<tittle>PHP Test</titlle>
+<body>
 <?php
-echo "Hello, World!\n";
+echo "<h1>Hello World!</h1>";
 ?>
+</head>
+</html>
