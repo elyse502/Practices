@@ -6,3 +6,4 @@ l = [{'Name': 'Elysée', 'SurName': 'NIYIBIZI'},
      {'Name': 'Placide', 'SurName': 'SHEMA'}]
 df = pd.DataFrame(l)
 print(df)
+
