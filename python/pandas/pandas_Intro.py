@@ -26,3 +26,17 @@ population_dict = {'California': 38332521,
 population = pd.Series(population_dict)
 print(population)
 print()
+
+# Create a series with custom index using dictionary
+s2 = pd.Series({'a': 10, 'b': 20, 'c': 30, 'd': 40, 'e': 50})
+print(s2)
+print()
+
+# Create a series with custom index using list
+s3 = pd.Series([10, 20, 30, 40, 50], index=['a', 'b', 'c', 'd', 'e'])
+print(s3)
+print()
+
+# Create a series with custom index using tuple
+s4 = pd.Series((10, 20, 30, 40, 50), index=('a', 'b', 'c', 'd', 'e'))
+print(s4)
