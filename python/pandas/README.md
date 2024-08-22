@@ -11,4 +11,9 @@ series is considered as a one dimensional array representation.
 ### (b) dataframe
 dataframe is considered as an object to represent a two dimensional array representation.
 
+## Resource:
+More about `pandas` Visit this 👉 [LINK](https://realpython.com/pandas-python-explore-dataset/)
+
+
+
 
