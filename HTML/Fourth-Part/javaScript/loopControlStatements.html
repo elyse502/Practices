@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Loop Control Statements</title>
+</head>
+<body>
+    <script language="javascript" type="text/javascript">
+        var i;
+        for (i = 1; i <= 10; i++) {
+            if (i == 5)
+                break;
+            document.write(" i = " + i + "<br />");
+        }
+        document.write("<br /> <br />");
+
+
+        var j;
+        for (j = 1; j <= 10; j++) {
+            if (j == 5 || j == 7)
+                continue;
+            document.write(" j = " + j + "<br />");
+        }
+    </script>
+</body>
+</html>

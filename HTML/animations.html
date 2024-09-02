@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        div {
+            width: 150px;
+            height: 100px;
+            background-color: blue;
+            /* -webkit-animation-name: Animation1;
+            -webkit-animation-duration: 2s;
+            animation-name: Animation1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite; */
+            /* -webkit-transition: width 2s; */
+            transition: 2s;
+            transition-delay: 2s;
+        }
+        /* @-webkit-keyframes Animation1 {
+            from {background-color: blue;}
+            to {background-color: red;}
+        }
+
+        @keyframes Animation1 {
+            from {background-color: blue;}
+            to {background-color: red;}
+        } */
+
+        div:hover {
+            width: 450px;
+            height: 450px;
+        }
+
+    </style>
+</head>
+<body>
+    <p><b>Note: </b>This Is Animation HummingBird</p>
+    <div></div>
+</body>
+</html>

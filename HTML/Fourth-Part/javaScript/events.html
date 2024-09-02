@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events</title>
+    <script laguage="javascript" type="text/javascript">
+        function MouseOver() {
+            document.images["img1"].src = "images/logo-red.png";
+        }
+
+        function MouseOut() {
+            document.images["img1"].src = "images/logo-green.png";
+        }
+
+        function Load() {
+            document.images["img1"].src = "images/logo-green.png";
+        }
+    </script>
+</head>
+<body onload="Load()">
+    <img name="img1" onmouseover="MouseOver()" onmouseout="MouseOut()">
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+blockquote {
+    font-family: 'Lobster', cursive;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+em {
+    font-size: 18px;
+    font-weight: normal;
+}

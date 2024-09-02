@@ -1,0 +1,24 @@
+.center-text {
+    text-align: center;
+}
+
+.left-margin {
+    margin-left: 20px;
+}
+
+.right_margin {
+    margin-right: 20px;
+}
+
+
+.vertical-align {
+    vertical-align: middle;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-color: #007bff;
+}
