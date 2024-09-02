@@ -1,0 +1,11 @@
+body {
+    background-color: gray;
+}
+
+#boxmodels {
+    background-color: lightgray;
+    border: 15px solid green;
+    width: 300px;
+    margin: 20px;
+    padding: 50px;
+}

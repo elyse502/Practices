@@ -1,0 +1,22 @@
+body {
+    background-color: gray;
+}
+
+.dotted {
+    border-style: dotted;
+    width: 80px;
+}
+
+.solid {
+    border-style: solid;
+    height: 100px;
+}
+
+.double {
+    border-style: double;
+    color: yellow;
+}
+
+.inset {
+    border-style: inset;
+}

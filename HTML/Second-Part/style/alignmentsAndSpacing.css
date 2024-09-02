@@ -1,0 +1,15 @@
+body {
+    background-color: gray;
+}
+
+.align {
+    text-align: center;
+}
+
+.space {
+    line-height: 4;
+}
+
+.spaceLetters {
+    letter-spacing: -2px;
+}

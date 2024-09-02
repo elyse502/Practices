@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        h1 {
+            color: blue;
+        }
+        h2 {
+            color: green;
+            text-decoration: underline;
+        }
+        b, i {
+            text-decoration: underline;
+        }
+        p b {
+            background-color: limegreen;
+        }
+
+        .style1 {
+            color: aqua;
+            font-family: Times new roman;
+        }
+        .style2 {
+            color: tan;
+            font-family: cursive;
+        }
+        #mydiv {
+            height: 300px;
+            width: 500px;
+            background-color: yellow;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the CSS Course</h1>
+    <h2>Easy Learning</h2>
+    <h2>Easy Learning</h2>
+    <h2>Easy Learning</h2>
+    <h2>Easy Learning</h2><br><br>
+    <b>This is bold</b><br>
+    <i>This is italics</i>
+    <p>This is a sample paragraph with a <b style="text-decoration: none;">highlighted bold</b> text</p><br><hr><br>
+
+    <div id="mydiv">
+        <h2 class="style1">Heading 1</h2>
+        <p class="style1">This a paragraph for heading 1</p>
+        <h2 class="style2">Heading 2</h2>
+        <p class="style2">This a paragraph for heading 2</p>
+    </div>
+</body>
+</html>
