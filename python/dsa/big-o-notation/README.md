@@ -14,6 +14,12 @@ More concisely, we can say **Big O Notation** measures the efficiency of acode b
 ## Constant Complexity or O(1)
 **Constant Complexity** means that the amount of time or space consumed by an algorithm **is constant and has no relation with the size of the input**.
 
+## Quadratic Complexity or O(n^2)
+**Quadratic Complexity** means that the space or runtime of an algorithm or a piece of code **scales quadratically with the size of the input**.
+
+## Logarithmic Complexity or O(log n)
+**Logarithmic Complexity** means the runtime or the space required by an algorithm or a piece of code to run grows logarithmically with the size of the input.
+
 <br /><hr /><br />
 
 # Complexities Comparison
