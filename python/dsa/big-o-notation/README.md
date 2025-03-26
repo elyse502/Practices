@@ -8,5 +8,13 @@ More concisely, we can say **Big O Notation** measures the efficiency of acode b
 
 <br /><hr /><br />
 
+## Linear Complexity or O(n)
+**Linear Complexity** means that the space or the run time of an algorithm **scales proportionally with the input size**.
+
+## Constant Complexity or O(1)
+**Constant Complexity** means that the amount of time or space consumed by an algorithm **is constant and has no relation with the size of the input**.
+
+<br /><hr /><br />
+
 # Complexities Comparison
 ![Screenshot 2025-03-26 123304](https://github.com/user-attachments/assets/a9893b37-6cec-4f71-ad92-3a6059e5c61f)
