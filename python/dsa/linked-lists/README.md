@@ -7,6 +7,17 @@
 
 ![Screenshot 2025-03-26 135334](https://github.com/user-attachments/assets/f17d17ce-abe3-487d-9d3d-409683a68a86)
 
+<br />
+
+## Time Complexity of `Singly Linked Lists` Operations
+1. Insertion at the beginning (**prepend**): `O(1)`
+2. Insertion at the end (**append**): `O(1)`
+3. Insertion at a specific position: `O(n)`
+4. Deletion from the beginning: `O(1)`
+5. Deletion from the end: `O(1)`
+6. Deletion from a specific position: `O(n)`
+7. Searching for a specific element: `O(n)`
+
 <br /><hr /><br />
 
 # When to Use Linked Lists?
