@@ -27,11 +27,11 @@ A **tree** in computer science is a data structure that represents a **hierarchi
 ### There are two types of **binary trees**:
 * **Balanced trees**: a **balanced tree** is a **tree** in which the **height** of the **left** and **right** subtrees of any `node` differs by at most one. Let's take a look at the **height** of the **left** and **right** subtrees of the following **root node**. The **height** of the **left** subtree is one, and the **height** of the **right** subtree is zero, and as yo can see, the difference between them is one. And if we recursively keep doing that for all the `nodes` in this **tree**, we should have the same result. If the difference is more than one for any `node` or any subtrees of a `node`, then it's **`unbalanced`**.
     
-![Screenshot 2025-04-06 071929](https://github.com/user-attachments/assets/3273766f-8661-4fe0-925c-6be5cd97d77e)
-
+![Screenshot 2025-04-06 072548](https://github.com/user-attachments/assets/2a16ec28-ed01-4bc9-921e-87ea03886c70)
 
 * **Unbalanced trees**: let's see an example of an **unbalanced tree**.
 
+![Screenshot 2025-04-06 073222](https://github.com/user-attachments/assets/789d8514-2bfd-44e3-9302-73ad08531565)
 
 
 
