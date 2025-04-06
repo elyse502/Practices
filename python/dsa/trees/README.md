@@ -17,11 +17,20 @@ A **tree** in computer science is a data structure that represents a **hierarchi
 ## Binary Trees
 **Binary trees** are **trees** in which each `node` has at most **two children**, a **left child** and a **right child**. Each `node` can have zero, one or two children.
 
+![Screenshot 2025-04-06 071251](https://github.com/user-attachments/assets/25e732c2-8436-43f2-9e5d-f0e720922d3f)
+
 ### Properties of Binary Trees
 * The **height** of the **tree** is the length of the longest path from the **root** to a **leaf** node, and the **depth** of any `node` in the **tree** is the level at which the `nodes` resides.
-* There are two types of **binary trees**:
-    * **Balanced trees**: a **balanced tree** is a **tree** in which the **height** of the **left** and **right** subtrees of any `node` differs by at most one.
-    * **Unbalanced trees**
+
+![Screenshot 2025-04-06 071537](https://github.com/user-attachments/assets/c0e016fc-f1b9-4774-b12b-ed0dc85f0041)
+
+### There are two types of **binary trees**:
+* **Balanced trees**: a **balanced tree** is a **tree** in which the **height** of the **left** and **right** subtrees of any `node` differs by at most one.
+    
+![Screenshot 2025-04-06 071929](https://github.com/user-attachments/assets/3273766f-8661-4fe0-925c-6be5cd97d77e)
+
+
+* **Unbalanced trees**
 
 
 
