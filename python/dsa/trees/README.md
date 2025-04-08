@@ -59,6 +59,26 @@ Let's take a look at some examples of **incomplete binary trees**:
 
 **Binary trees** are used to implement **heaps**.
 
+## Binary Search Trees
+A **binarry search tree** is a special type of **binary tree**, in which all the `nodes` are ordered in such a way that for every `node`, all the nodes in its **left** subtree are less than its value, and all the `nodes` in its **right** subtree are greater than its value.
+
+The following is an example of a **binary search tree**:
+
+
+* The **root node** there is `10` and as you can see, all the nodes in its **left** subtree are less than its value, and all the `nodes` in its **right** subtree are greater than its value. And this applies to each `node` in the **binary search tree**. If we go through them, as you can see `5` has `3` as a **left child**, which is less than `5`, and `8` as a **right child**, which is greater than `5`. And the `15` has `12` as a **left child**, which is less than `15`, and `20` as a **right child**, which is greater than `15`.
+
+**Binary search trees** are used for efficient search operations, because the search operation has a **time complexity** of **`O(log n)`** in **binary search trees**, because at each level of the **tree**, the search space is divided in **half**.
+
+Let's see an example of the search operation to understand this better. 
+
+
+* Let's say we are searching for `node 3` in the above **binary search tree**.
+    * We will start with the **root node** and check, is `3` less or greater than its value. Since `3` is less than `10`, that means we are going to search in the **left** subtree. So we will eliminate the **right** subtree and move to the **root node** of the **left** subtree, which is `5` and we will continue comparing.
+    * So by continue comparing, we will check is `3` less than or greater than `5`, since it's less than `5`, that means we will search in the **left** subtree.
+    * So we will move to the **root node** of the **left** subtree, which is `3`, at this point we found the `node 3` that we are looking for.
+    * As you can see in each level of the **tree**, we are dividing the search space by `2`. Either we eliminate the **right** or the **left** subtree.
+    * So if the **binary search tree** contains `n` `nodes`, then the number of operations we need to find an **element** in that **binary search tree** is **`log n`**.
+
 
 
 
