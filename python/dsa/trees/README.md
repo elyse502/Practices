@@ -81,4 +81,4 @@ Let's see an example of the search operation to understand this better.
     * As you can see in each level of the **tree**, we are dividing the search space by `2`. Either we eliminate the **right** or the **left** subtree.
     * So if the **binary search tree** contains `n` `nodes`, then the number of operations we need to find an **element** in that **binary search tree** is **`log n`**.
 
-
+So to conclude, **binary search trees** provide an efficient way to organize and search **data**, and they are used to implement various **searching algorithms** and **databases** for quick `search operations`.
