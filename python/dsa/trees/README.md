@@ -44,6 +44,7 @@ And there is an exception for the last level of the **complete binary tree**, it
 
 Let's take a look at some **complete binary trees**:
 
+![Screenshot 2025-04-08 064056](https://github.com/user-attachments/assets/8fcdbb2f-db2d-41f4-8312-57ad6523590a)
 
 So the above two **trees** are valid **complete binary trees**.
 * In the first one, all the levels are completely filled with `nodes`.
@@ -51,13 +52,12 @@ So the above two **trees** are valid **complete binary trees**.
 
 Let's take a look at some examples of **incomplete binary trees**:
 
+![Screenshot 2025-04-08 065726](https://github.com/user-attachments/assets/5dadea26-2450-4572-b8ae-b2459f3e14cc)
 
 * So in the first one, in the last level the `nodes` are not as **left** as possible. There is a gap in the middle there, and that violates the rule of a **complete binary tree**.
 * In the second one also has a gap on the **left**, and that makes it an **incomplete binary tree**.
 
 **Binary trees** are used to implement **heaps**.
-
-
 
 
 
