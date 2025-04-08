@@ -37,6 +37,26 @@ So this **tree** is **unbalanced** because the **left** subtree has a **height**
 
 * **Binary search trees** are one of the popular use cases of **binary trees**.
 
+## Complete Binary Trees
+A **complete binary tree** is a special type of a **binary tree**, where the levels except possibly last are completely filled and all `nodes` are as **left** as possible. So that means if we are constructing a **complete binary tree**, we have to fill the `nodes` from **left** to **right** in each level, leaving no gaps in the **sequence**.
+
+And there is an exception for the last level of the **complete binary tree**, it can be not completely filled, but the gaps should be at the **right**, so we should always fill the `nodes` from the **left** in each level.
+
+Let's take a look at some **complete binary trees**:
+
+
+So the above two **trees** are valid **complete binary trees**.
+* In the first one, all the levels are completely filled with `nodes`.
+* In the second one, the levels are completely filled except for the last level. But as we saw, this is okay as long as there are no gaps on the **left** side. So since the gap there is on the **right** side, that should be fine.
+
+Let's take a look at some examples of **incomplete binary trees**:
+
+
+* So in the first one, in the last level the `nodes` are not as **left** as possible. There is a gap in the middle there, and that violates the rule of a **complete binary tree**.
+* In the second one also has a gap on the **left**, and that makes it an **incomplete binary tree**.
+
+**Binary trees** are used to implement **heaps**.
+
 
 
 
