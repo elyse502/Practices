@@ -37,6 +37,8 @@ So this **tree** is **unbalanced** because the **left** subtree has a **height**
 
 * **Binary search trees** are one of the popular use cases of **binary trees**.
 
+<br /><hr /><br />
+
 ## Complete Binary Trees
 A **complete binary tree** is a special type of a **binary tree**, where the levels except possibly last are completely filled and all `nodes` are as **left** as possible. So that means if we are constructing a **complete binary tree**, we have to fill the `nodes` from **left** to **right** in each level, leaving no gaps in the **sequence**.
 
@@ -58,6 +60,8 @@ Let's take a look at some examples of **incomplete binary trees**:
 * In the second one also has a gap on the **left**, and that makes it an **incomplete binary tree**.
 
 **Binary trees** are used to implement **heaps**.
+
+<br /><hr /><br />
 
 ## Binary Search Trees
 A **binarry search tree** is a special type of **binary tree**, in which all the `nodes` are ordered in such a way that for every `node`, all the nodes in its **left** subtree are less than its value, and all the `nodes` in its **right** subtree are greater than its value.
@@ -82,3 +86,4 @@ Let's see an example of the search operation to understand this better.
     * So if the **binary search tree** contains `n` `nodes`, then the number of operations we need to find an **element** in that **binary search tree** is **`log n`**.
 
 So to conclude, **binary search trees** provide an efficient way to organize and search **data**, and they are used to implement various **searching algorithms** and **databases** for quick `search operations`.
+
