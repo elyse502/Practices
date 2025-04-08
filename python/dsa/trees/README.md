@@ -33,6 +33,11 @@ A **tree** in computer science is a data structure that represents a **hierarchi
 
 ![Screenshot 2025-04-06 073222](https://github.com/user-attachments/assets/789d8514-2bfd-44e3-9302-73ad08531565)
 
+So this **tree** is **unbalanced** because the **left** subtree has a **height** of two and the right subtree has **height** zero. So the difference here is two which is more than one, and that means that this **tree** is **unbalanced**.
+
+* **Binary search trees** are one of the popular use cases of **binary trees**.
+
+
 
 
 
