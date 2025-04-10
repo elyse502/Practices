@@ -19,3 +19,11 @@ The order of the `nodes` doesn't matter in the `max heap` or in the `min heap`. 
 ## Heap Implementation
 
 ![Screenshot 2025-04-10 083701](https://github.com/user-attachments/assets/46c4eeb8-aec8-463b-b102-5e04f0a68837)
+
+## Heap Time Complexities
+* Insert or push operation: **O(log n)**
+* Pop operation: **O(log n)**
+
+**N.B:** the *height* of the **binary heap** is **`log n`**
+
+![Screenshot 2025-04-10 114614](https://github.com/user-attachments/assets/95607a37-4d40-47bc-a5bd-185b6bd87949)
