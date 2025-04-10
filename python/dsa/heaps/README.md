@@ -16,4 +16,5 @@ The order of the `nodes` doesn't matter in the `max heap` or in the `min heap`. 
 
 **N.B**: `heaps` are not good for searching, they are only good in keeping track of the **minimum** or the **maximum** value in a data set. And heaps are **complete binary trees**, and we saw that **binary trees** are **trees** in which each `node` has maximum two children, and a **complete tree** is a **tree** in which all the levels are completely filled from left to right, so there should not be any gaps in between the `nodes` in each level.
 
+## Heap Implementation
 
