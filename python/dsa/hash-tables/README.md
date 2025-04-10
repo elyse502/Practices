@@ -18,3 +18,12 @@ Here is an example of what a **hash table** entry can look like:
   * If there are more than 1 **item** stored at that specific **address**, the `hash table` will call the **hash function** as well and get the **address**, and then it starts to search in the list at that **address** for a `key value pair` with that specific **key** until it finds it, and then returns it. And as you can see, that increases the **time complexity**, so a good **hash function** should avoid `collisions`!
 
 ![Screenshot 2025-04-10 123650](https://github.com/user-attachments/assets/76d364cb-6d69-484a-8cdf-0f827b086e97)
+
+## Hash Table: Time & Space Complexities
+* **Insert/Get** :
+  * Average Case: **O(1)**
+  * Worst Case: **O(n)**
+* **Space Complexity**: **O(n)** where **n** is the number of `key/value pairs` 
+
+
+
