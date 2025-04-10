@@ -14,5 +14,7 @@ Here is an example of what a **hash table** entry can look like:
 
 ![Screenshot 2025-04-10 123506](https://github.com/user-attachments/assets/d4c4071f-6206-403f-9ae6-6570e4da6770)
 
+* To retrieve an **element** from the `hash table`, we use the **key** of the **element** that we want to retrieve to retrieve it, and the **hash table** takes that **key** and pass it to the `hash function` and then the `hash function` returns the **address** at which that **item** with that specific **key** is stored, then the `hash table` retrieves the `key value pair` from that **address** and returns it.
+  * If there are more than 1 **item** stored at that specific **address**, the `hash table` will call the **hash function** as well and get the **address**, and then it starts to search in the list at that **address** for a `key value pair` with that specific **key** until it finds it, and then returns it. And as you can see, that increases the **time complexity**, so a good **hash function** should avoid `collisions`!
 
-
+![Screenshot 2025-04-10 123650](https://github.com/user-attachments/assets/76d364cb-6d69-484a-8cdf-0f827b086e97)
