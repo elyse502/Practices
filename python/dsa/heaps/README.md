@@ -18,3 +18,4 @@ The order of the `nodes` doesn't matter in the `max heap` or in the `min heap`. 
 
 ## Heap Implementation
 
+![Screenshot 2025-04-10 083701](https://github.com/user-attachments/assets/46c4eeb8-aec8-463b-b102-5e04f0a68837)
