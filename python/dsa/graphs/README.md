@@ -59,7 +59,7 @@ Let's see an example, where we have an **undirected graph**:
 ### Space Complexity
 The **adjacency matrix** itself is a square matrix with the dimensions `v` multiplied by `v`, where `v` is the number of **vertices** in the **graph**. So the total the total **space complexity** of the **adjacency matrix** is `O(v^2)`. Meanwhile, in the **adjacency list** representation, we use **hash table** and the `keys` are the `vertices` of the **graph**, and the `value` for each `key` is the `neighbors` for each `vertex`. So in this case, if the number of `vertices` is represented by `v` and the number of `edges` is represented by `E`, then the total **space complexity** of the **adjacency list** is `O(v + E)`, because we store only the `vertices` and the `edges` of each `vertex`.
 
-
+![Screenshot 2025-04-14 141816](https://github.com/user-attachments/assets/3764a3ac-adfe-409a-b96e-5521bad09fcb)
 
 So as you can see, the **adjacency list** is more efficient than the **adjacency matrix** when it comes to **space consumption** and **space complexity**.
 
@@ -67,11 +67,11 @@ So as you can see, the **adjacency list** is more efficient than the **adjacency
 The **time complexity** of the **graph** operartions in both **adjacency matrix** and **adjacency list**:
 * Adding a new `node` to the **graph**: the **time complexity** of adding a new `node` using the **adjacency matrix** is `O(v^2)`, where `v` is the current number of **vertices** in the **graph**. On the other hand, the **time complexity** of adding a new `node` using the **adjacency list** is `O(1)`.
 
-
+![Screenshot 2025-04-14 142557](https://github.com/user-attachments/assets/21006364-5f00-4755-8494-09675a8510a9)
 
 * Adding an `edge` between two `nodes`: Using the **adjacency matrix** we will have to update those entries to one, so the **time complexity** here is **constant** (`O(1)`). On the other hand, using the **adjacency list** we will have to append those `vertices` to the list of neighbors in the corresponding `vertices`, so the **time complexity** here also is **constant** (`O(1)`).
 
-
+![Screenshot 2025-04-14 143407](https://github.com/user-attachments/assets/d872c3a3-b684-499a-bb8d-5fb72d678202)
 
 
 
