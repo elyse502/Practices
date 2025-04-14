@@ -27,19 +27,23 @@ There are two types of **graphs**:
 
 <br /><hr /><br />
 
-## Graphs: Adjacency Matrix
+## Graphs: `Adjacency Matrix`
 The **adjacency matrix** is a representation of the **graph** in computer science.
 
-An example of an **adjacency matrix** is:
+An example of an **adjacency matrix**:
 
+![Screenshot 2025-04-14 063015](https://github.com/user-attachments/assets/bbf38607-6ce4-4f9f-8577-73eb0e9d0f20)
 
 Since the above **graph** is **undirected**, the **matrix** is `symmetric`, meaning that one half is a mirror of the other half of the **matrix**.
 
+![Screenshot 2025-04-14 063312](https://github.com/user-attachments/assets/aa62926a-cd72-4f41-ba9a-8fbf2ff7664d)
 
+**N.B:** In the **directed graph**, the **matrix** may not be **symmetric**. Here is an example of a **directed graph**:
 
- **N.B:** In the **directed graph**, the **matrix** may not be **symmetric**. Here is an example of a **directed graph**:
-
+ ![Screenshot 2025-04-14 063815](https://github.com/user-attachments/assets/e119a62b-8190-4168-b003-f89039ed7c26)
  
- 
- As you can see, the above **matrix** is **not symmetric** unlike in the **undirected graph** case.
+As you can see, the above **matrix** is **not symmetric** unlike in the **undirected graph** case.
+
+
+
 
