@@ -76,9 +76,9 @@ The **time complexity** of the **graph** operartions in both **adjacency matrix*
 
 * Removing an `edge` operation: In the **adjacency matrix** we will just update the entries to `zero(0)`, so the **time complexity** here is **constant** (`O(1)`). On the other hand, using the **adjacency list** we will have to go to the list of neighbors of the corresponding `vertices` and search for the relevant `nodes` an delete them. So this search operation is `linear`. So the **time complexity** here is `O(E)`, where `E` is the number of `edges` that we have to iterate through.
 
-
+![Screenshot 2025-04-14 144757](https://github.com/user-attachments/assets/2765e585-d716-4b38-8c3f-369faaacb5ee)
 
 * Removing a `node` operartion: Removing a `node` from the **adjacency list** we will have to remove the corresponding entry from the `dictionary`, and then we will have to go through all the `nodes` and delete this `node` if it exists in the list of the neighbors for each other `node`. So this search operation has `O(V+E)` **time complexity**, where `v` is the number of `vertices` and `E` is the number of `edges`, but removing the entry itself has **constant** `O(1)` **time complexity**, so the total **time complexity** will be `O(V+E)`. On the other hand removing a `node` from the **adjacency matrix**, we will have to remove the corresponding `row` and `column`. So this will need a reconstructing of the complete **matrix**, and in this case the **time complexity** will be `O(v^2)`, where `v` is the number of `vertices`.
 
-
+![Screenshot 2025-04-14 145728](https://github.com/user-attachments/assets/bc0a0ee0-9e76-45ec-9520-f7ad8e21a912)
 
