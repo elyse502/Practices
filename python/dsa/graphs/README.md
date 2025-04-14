@@ -51,4 +51,4 @@ The **adjacency list** is a representation of the **graph** in computer science.
 
 Let's see an example, where we have an **undirected graph**:
 
-
+![Screenshot 2025-04-14 082501](https://github.com/user-attachments/assets/db28e3ab-a984-46df-b386-b50895915156)
