@@ -44,6 +44,11 @@ Since the above **graph** is **undirected**, the **matrix** is `symmetric`, mean
  
 As you can see, the above **matrix** is **not symmetric** unlike in the **undirected graph** case.
 
+<br /><hr /><br />
 
+## Graphs: `Adjacency List`
+The **adjacency list** is a representation of the **graph** in computer science. In the **adjacency list**, we will use a `hash map` and the **keys** in the `hash map` will be the `nodes` of the **graph**. So each **key** in the `hash map` represents a `vertex` or a `node` in the **graph**. So for each **key**, or in other words, for each **vertex**, the value will be a `list` of its neighboring **vertices**.
+
+Let's see an example, where we have an **undirected graph**:
 
 
