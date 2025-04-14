@@ -57,11 +57,13 @@ Let's see an example, where we have an **undirected graph**:
 
 ## Graphs: Time & Space Complexities
 ### Space Complexity
-The **adjacency matrix** itself is a square matrix with the dimensions `v` multiplied by `v`, where `v` is the number of **vertices** in the **graph**. So the total the total **space complexity** of the **adjacency matrix** is `O(v^2)`. Meanwhile, in the **adjacency list** representation, we use **hash table** and the `keys` are the `vertices` of the **graph**, and the `value` for each `key` is the `neighbors` for each `vertex`. So in this case, if the number of `vertices` is represented by `v` and the number of `edges` is represented by `E`, then the total **space complexity** of the **adjacency list** is `O(v + E)`, because we store only the `vertices` and the `edges` of each `vertex`.
+The **adjacency matrix** itself is a square matrix with the dimensions `v` multiplied by `v`, where `v` is the number of **vertices** in the **graph**. So the total **space complexity** of the **adjacency matrix** is `O(v^2)`. Meanwhile, in the **adjacency list** representation, we use **hash table** and the `keys` are the `vertices` of the **graph**, and the `value` for each `key` is the `neighbors` for each `vertex`. So in this case, if the number of `vertices` is represented by `v` and the number of `edges` is represented by `E`, then the total **space complexity** of the **adjacency list** is `O(v + E)`, because we store only the `vertices` and the `edges` of each `vertex`.
 
 ![Screenshot 2025-04-14 141816](https://github.com/user-attachments/assets/3764a3ac-adfe-409a-b96e-5521bad09fcb)
 
 So as you can see, the **adjacency list** is more efficient than the **adjacency matrix** when it comes to **space consumption** and **space complexity**.
+
+<br /><br />
 
 ### Time Complexity
 The **time complexity** of the **graph** operartions in both **adjacency matrix** and **adjacency list**:
@@ -81,4 +83,7 @@ The **time complexity** of the **graph** operartions in both **adjacency matrix*
 * Removing a `node` operation: Removing a `node` from the **adjacency list** we will have to remove the corresponding entry from the `dictionary`, and then we will have to go through all the `nodes` and delete this `node` if it exists in the list of the neighbors for each other `node`. So this search operation has `O(V+E)` **time complexity**, where `v` is the number of `vertices` and `E` is the number of `edges`, but removing the entry itself has **constant** `O(1)` **time complexity**, so the total **time complexity** will be `O(V+E)`. On the other hand removing a `node` from the **adjacency matrix**, we will have to remove the corresponding `row` and `column`. So this will need a reconstructing of the complete **matrix**, and in this case the **time complexity** will be `O(v^2)`, where `v` is the number of `vertices`.
 
 ![Screenshot 2025-04-14 145728](https://github.com/user-attachments/assets/bc0a0ee0-9e76-45ec-9520-f7ad8e21a912)
+
+
+
 
