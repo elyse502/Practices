@@ -18,6 +18,14 @@ class Graph:
             self.adjacency_list[node1].remove(node2)
             self.adjacency_list[node2].remove(node1)
 
+    def remove_node(self, node):
+        if node in self.adjacency_list:
+            # Remove the node from the adjacency lits of its neighbors.
+            for neighbor in self.adjacency_list[node]:
+                self.adjacency_list[neighbor].remove(node)
+            # Remove the node itself.
+            del self.adjacency_list[node]
+
     def display(self):
         pass
     
