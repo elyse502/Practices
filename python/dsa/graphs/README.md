@@ -52,3 +52,28 @@ The **adjacency list** is a representation of the **graph** in computer science.
 Let's see an example, where we have an **undirected graph**:
 
 ![Screenshot 2025-04-14 082501](https://github.com/user-attachments/assets/db28e3ab-a984-46df-b386-b50895915156)
+
+<br /><hr /><br />
+
+## Graphs: Time & Space Complexities
+### Space Complexity
+The **adjacency matrix** itself is a square matrix with the dimensions `v` multiplied by `v`, where `v` is the number of **vertices** in the **graph**. So the total the total **space complexity** of the **adjacency matrix** is `O(v^2)`. Meanwhile, in the **adjacency list** representation, we use **hash table** and the `keys` are the `vertices` of the **graph**, and the `value` for each `key` is the `neighbors` for each `vertex`. So in this case, if the number of `vertices` is represented by `v` and the number of `edges` is represented by `E`, then the total **space complexity** of the **adjacency list** is `O(v + E)`, because we store only the `vertices` and the `edges` of each `vertex`.
+
+
+
+So as you can see, the **adjacency list** is more efficient than the **adjacency matrix** when it comes to **space consumption** and **space complexity**.
+
+### Time Complexity
+The **time complexity** of the **graph** operartions in both **adjacency matrix** and **adjacency list**:
+* Adding a new `node` to the **graph**: the **time complexity** of adding a new `node` using the **adjacency matrix** is `O(v^2)`, where `v` is the current number of **vertices** in the **graph**. On the other hand, the **time complexity** of adding a new `node` using the **adjacency list** is `O(1)`.
+
+
+
+* Adding an `edge` between two `nodes`: Using the **adjacency matrix** we will have to update those entries to one, so the **time complexity** here is **constant** (`O(1)`). On the other hand, using the **adjacency list** we will have to append those `vertices` to the list of neighbors in the corresponding `vertices`, so the **time complexity** here also is **constant** (`O(1)`).
+
+
+
+
+
+
+
