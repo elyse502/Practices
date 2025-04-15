@@ -1,9 +1,9 @@
 # Tries
-**Tries** also known as **Prefix Trees**, are tree-like data structures that are used for **efficient storage and retrieval of strings**.
+**Tries** also known as **Prefix Trees**, are `tree-like data structures` that are used for **efficient storage and retrieval of strings**.
 
 Here is an example of a **trie data structure**:
 
-
+![Screenshot 2025-04-15 065728](https://github.com/user-attachments/assets/01828fee-3876-4e16-a0ec-e9d7dd61e360)
 
 * As you can see it mainly consists of `nodes` that represent `characters`, and those `characters` form `words`. So we can say that it stores `strings` or `words` in an efficient way, so that you can search or retrieve those `words` or `strings` efficiently.
 * As you can see, each `node` represents a `character` and the **root** `node` represents an **empty string**.
