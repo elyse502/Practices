@@ -11,4 +11,14 @@ Here is an example of a **trie data structure**:
     * This is known through a **flag** called `isWord`, and it's configured in each `node` in the **tree**. If a `character` is the `last character` in a `word`, the **flag** is going to be **true**, otherwise it's going to be **false**.
 * The goal of using **tries** is efficient storage and retrieval or search for `strings` or `words`.
 
+<br /><hr /><br />
+
+## Tries Big O
+### Time Complexity
+* **Insertion**: `O(m)`, where `m` is the length of the `word` being inserted.
+* **Search**: `O(m)`, where `m` is the length of the `word` being searched.
+
+### Space Complexity
+The **trie** has a **space complexity** of `O(m * n)`, where `n` is the number of the words stored in the **trie**, and `m` is the average length of the words.
+
 
