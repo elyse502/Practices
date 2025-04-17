@@ -12,6 +12,9 @@ How the **algorithm** works:
 
 # Binary Search
 **Binary Search** is a `divide` and `conquer` **algorithm** that repeatedly divides a **sorted data set** in `half` to locate the **target element**. So by that it narrows down the `search space` at each step.
+
+![Screenshot 2025-04-17 074921](https://github.com/user-attachments/assets/17948fe7-f63b-45ac-9c31-d927edcc4b6d)
+
 * **Binary Search** is a `divide and conquer algorithm` that is used to find an `element` in a **sorted list**.
 * In **binary search** we use two **pointers** called `low` and `high`, and they are used to define the `current search space` within the **array**.
     * Initially `low` is set to the first `index` of the **array** and `high` is set to the last `index` of the **array**, because initially we will search the entire **array** and then we will divide it step by step later.
@@ -19,7 +22,13 @@ How the **algorithm** works:
     * If the **target element** is less than (`<`) the **mid element**, it means that the **target** must be in the `left half` of the `current search space`. So in that case the `high pointer` is updated to `mid - 1`.
     * If the **target element** is greater than (`>`) the **mid element**, it means that the **target** must be in the `right half` of the `current search space`. So in that case the `low pointer` is updated to `mid + 1`.
     * Otherwise, if the **target element** is equal to the **mid element**, it means that the **target** is found and we can return the `index` of the **target element**.
+
+![Screenshot 2025-04-17 075616](https://github.com/user-attachments/assets/395c9e84-272c-4a2e-b6de-849ea05d7462)
+![Screenshot 2025-04-17 075646](https://github.com/user-attachments/assets/cdc83cb4-b6fa-4b98-b2d3-942a1ef48869)
+![Screenshot 2025-04-17 075709](https://github.com/user-attachments/assets/790743ec-957c-4446-8117-48ca5357f9d5)
+
 * As we saw in each `iteration` we reduce the `search space` by **half**, and as we learned in the **big O notation**, this means that the **time complexity** is `O(log n)`, where `n` is the number of the `items` in the **array**.
 * **Binary Search** is efficient when working with **large data sets**, but they have to be **sorted**.
+
 
 
