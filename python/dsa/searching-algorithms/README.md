@@ -8,6 +8,10 @@ How the **algorithm** works:
 * The **time complexity** of the **linear search** is `O(n)`, where `n` is the size of the **list**, because in the **worst case**, we will have to iterate through all the **items** in the **list**, if the **item** that we are searching for is the **last item**, or if it does not exist in the **list**.
 * **Linear Search** is suitable for **small data sets** or **unordered lists**, and it's also easy to implement. But for **large data sets** it's not very efficient because as you see, the **time complexity** is **linear** (`O(n)`). There are more efficient **searching algorithms** like **binary search**, which has **time complexity** of `O(log n)`, which is more efficient than **linear search** for **large data sets**. However, the **data set** needs to be sorted, otherwise it's not possible to use **binary search**.
 
+## Linear Search `Time` and `Space` Complexities
+* **Time Complexity** is `O(n)`.
+* **Space Complexity** is `O(1)`.
+
 <br /><hr /><br />
 
 # Binary Search
@@ -29,6 +33,12 @@ How the **algorithm** works:
 
 * As we saw in each `iteration` we reduce the `search space` by **half**, and as we learned in the **big O notation**, this means that the **time complexity** is `O(log n)`, where `n` is the number of the `items` in the **array**.
 * **Binary Search** is efficient when working with **large data sets**, but they have to be **sorted**.
+
+## Binary Search (on a sorted array) `Time` and `Space` Complexities
+* **Time Complexity** is `O(log n)`.
+* **Space Complexity** is `O(1)`.
+
+**N.B:** ***binary search** works only on a `sorted array`!*
 
 
 
