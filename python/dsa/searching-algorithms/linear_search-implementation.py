@@ -9,10 +9,13 @@ def linear_search(arr, target):
 
 # Example usage
 if __name__ == "__main__":
-    arr = [1, 2, 3, 4, 5]
+    arr = [10, 2, 7, 5, 3, 1, 4]
+    print(f"Array: {arr}")
+
+    # Searching for different targets
     target = 3
     result = linear_search(arr, target)
-    print(f">> Target {target} found at index {result}.")
+    print(f"\n>> Target {target} found at index {result}.")
     target = 6
     result = linear_search(arr, target)
     print(f">> Target {target} found at index {result}.")
