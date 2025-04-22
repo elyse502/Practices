@@ -8,7 +8,12 @@ The idea behind the **insertion sort** is to divide the `array` into two parts, 
 
 * In the **insertion sort** we always start with the `second element` and assume that the `first element` is already sorted.
 
+<br /><hr /><br />
 
+# Selection Sort
+**Selection sort** is a simple **sorting algorithm** that sorts the array by repeatedly finding the minimum element from the `unsorted` part and putting it at the beginning.
+
+* In the beginning we consider the entire **list** as `unsorted`. Then we find the `minimum element` and swap it with the `first element`, and then the `first element` is considered `sorted`. So we repeat the same steps again, and swap the `minimum element` with the second element...
 
 
 
