@@ -39,6 +39,6 @@ In simple terms, we can say that the process of merge sort is to divide the arra
 * Time Complexity: `O(n^2)`
 * Space Complexity: `O(1)`
 
-## Merge Sort (Most Efficient)
+## Merge Sort (*Most Efficient*)
 * Time Complexity: `O(n log n)`
 * Space Complexity: `O(n)`
