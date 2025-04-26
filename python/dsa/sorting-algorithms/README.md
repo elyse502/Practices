@@ -23,3 +23,22 @@ The idea behind the **insertion sort** is to divide the `array` into two parts, 
 In simple terms, we can say that the process of merge sort is to divide the array into `two halves`, sort each `half`, and then merge the sorted `halves` back together. This process is repeated until the entire array is sorted.
 
 ![Merge-Sort-Algorithm](https://github.com/user-attachments/assets/3aa1379b-947e-446a-9a0a-c6d06ab48024)
+
+<br /><hr /><br />
+
+# Sorting Algorithms Big-O Notation
+## Bubble Sort
+* Time Complexity: `O(n^2)`
+* Space Complexity: `O(1)`
+
+## Insertion Sort
+* Time Complexity: `O(n^2)`
+* Space Complexity: `O(1)`
+
+## Selection Sort
+* Time Complexity: `O(n^2)`
+* Space Complexity: `O(1)`
+
+## Merge Sort (Most Efficient)
+* Time Complexity: `O(n log n)`
+* Space Complexity: `O(n)`
