@@ -23,7 +23,7 @@ function open_box(current_box):
 <br /><br />
 
 ## Examples
-**Fibonacci Sequence**
+### Fibonacci Sequence
 
 The **Fibonacci Sequence** is a sequence of numbers in which each number is the sum of the two preceding ones.
 
@@ -45,11 +45,20 @@ The first 10 numbers in the Fibonacci sequence are 0, 1, 1, 2, 3, 5, 8, 13, 21, 
 
 <br /><br />
 
-**Factorial**
+### Factorial
 
-The **factorial** of a number is the product of all positive integers less than or equal to that number.
+The **factorial** of a number is the product of all positive integers less than or equal to that number. So the **factorial** of a non-negative integer $n$, is the product of all positive integers less than or equal to $n$.
 
-For example, the factorial of 5 is 5 * 4 * 3 * 2 * 1 = 120.
+**Example**:
+* The factorial of 5 is 5 * 4 * 3 * 2 * 1 = 120.
+
+**Example with recursion:**
+
+`factorial(3)` = 3 * 2 * 1 = 6
+
+`factorial(3)` = 3 * `factorial(2)`
+
+`factorial(2)` = 2 * `factorial(1)`
 
 The factorial can be defined recursively as follows:
 
