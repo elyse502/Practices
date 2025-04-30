@@ -5,9 +5,10 @@ This is often done in order to reduce the number of operations required to solve
 
 **Open Box instance:**
 
+![Screenshot 2025-04-30 080143](https://github.com/user-attachments/assets/0305f446-33e7-4407-ab17-8f29d1a2c685)
 
 **Pseudo Code of Open Box function:**
-```groovy
+```python
 function open_box(current_box):
     if current_box does not contain Key:
         # When the current box does not contain a key and the function calls itself with a new box or the sub box, this is called a recursive case.
@@ -18,6 +19,8 @@ function open_box(current_box):
 ```
 
 * the `Base Case` is very important in **recursion**, because if there is no `Base Case` the function will keep calling itself. And this will cause a **StackOverflowError**.
+
+<br /><br />
 
 ## Examples
 **Fibonacci Sequence**
@@ -40,6 +43,8 @@ For example, $f(3) = f(2) + f(1) = 1 + 1 = 2$, $f(4) = f(3) + f(2) = 2 + 1 = 3$,
 
 The first 10 numbers in the Fibonacci sequence are 0, 1, 1, 2, 3, 5, 8, 13, 21, 34.
 
+<br /><br />
+
 **Factorial**
 
 The **factorial** of a number is the product of all positive integers less than or equal to that number.
@@ -55,7 +60,6 @@ where $f(n)$ is the factorial of $n$.
 For example, $f(5) = 5 * f(4) = 5 * 4 * f(3) = 5 * 4 * 3 * f(2) = 5 * 4 * 3 * 2 * f(1) = 5 * 4 * 3 * 2 * 1 = 120$.
 
 The factorial of 0 is 1.
-
 
 
 
