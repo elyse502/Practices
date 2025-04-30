@@ -60,6 +60,9 @@ The **factorial** of a number is the product of all positive integers less than 
 
 `factorial(2)` = 2 * `factorial(1)`
 
+![Screenshot 2025-04-30 085040](https://github.com/user-attachments/assets/3729bcdf-af0a-4d3b-9c02-00eeb33c00df)
+![Screenshot 2025-04-30 085142](https://github.com/user-attachments/assets/003c0360-f14b-4ef0-9c77-cdd074d91395)
+
 The factorial can be defined recursively as follows:
 
 $$f(n) = \begin{cases} 1, & \text{if } n = 0 \\ n * f(n - 1), & \text{otherwise} \end{cases}$$
@@ -84,5 +87,8 @@ So when a function is called, it's pushed onto the `call stack`, and the functio
 **Example with recursion:**
 
 ![Screenshot 2025-04-30 083517](https://github.com/user-attachments/assets/aacf9f69-d0c1-4194-9b70-190d1b8e295b)
+
+
+
 
 
