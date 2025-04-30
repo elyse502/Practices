@@ -70,10 +70,10 @@ So when a function is called, it's pushed onto the `call stack`, and the functio
 
 **Example**:
 
+![Screenshot 2025-04-30 083300](https://github.com/user-attachments/assets/f9dd4435-80ba-478c-9988-a5d12f97a976)
 
 **Example with recursion:**
 
-
-
+![Screenshot 2025-04-30 083517](https://github.com/user-attachments/assets/aacf9f69-d0c1-4194-9b70-190d1b8e295b)
 
 
