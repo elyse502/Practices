@@ -104,6 +104,36 @@ function factorial(n):
 * **The time complexity** is `O(n)`, where `n` is the number of recursive calls.
 * **The space complexity** is `O(n)`, where `n` is the depth of the call stack.
 
+<br /><hr /><br />
+
+# Stack Overflow
+**Stack overflow** occurs when the `call stack` of a program **exceeds its available memory space**. And this can happen due to several reasons, such as:
+
+1. Missing or incorrect `base case` in **recursion**, which leads to infinite recursion.
+For example:
+
+```python
+function infiniteRecursion(n):
+    return infiniteRecursion(n + 1)
+```
+
+The above function is a **recursive function** and it has no `base case`, so it will keep calling itself infinitely, and the `call stack` will keep adding instances of this function until it runs out of space. And this is what's called **stack overflow**.
+
+2. Excessive `recursion depth`, and this happens when the **recursive function** has a `base case` but it has a very inefficient `time complexity`, and with a large input it can cause a `call stack` to run out of memory and a **stack overflow** will happen.
+For example:
+
+```python
+function fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+```
+
+The above **fibonacci function** as we saw has a `O(2^n)` or `exponential time complexity`, which leads to exessive recursion depth for large inputs, and this can cause a **stack overflow**. And we can solve that issue with the `memoization` or `dynamic programming` techniques to make the `time complexity` `linear` or `O(n)`.
+
+**N.B:** To avoid _**stack overflow**_, you have to always define a proper `base case` and pay attention about the depth of the **recursion** in your code.
+
 
 
 
