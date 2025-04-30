@@ -61,7 +61,17 @@ For example, $f(5) = 5 * f(4) = 5 * 4 * f(3) = 5 * 4 * 3 * f(2) = 5 * 4 * 3 * 2 
 
 The factorial of 0 is 1.
 
+<br /><hr /><br />
 
+# Call Stack
+In the context of programming, a **call stack** is a stack data structure that **keeps track of the sequence of function calls** and their corresponding execution contexts during the execution of a program.
+
+So when a function is called, it's pushed onto the `call stack`, and the function at the top of the `stack` is executed. And if this function calls another function, then this function is pushed onto the `stack` and the control transfers to the newly called function.
+
+**Example**:
+
+
+**Example with recursion:**
 
 
 
