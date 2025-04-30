@@ -88,6 +88,21 @@ So when a function is called, it's pushed onto the `call stack`, and the functio
 
 ![Screenshot 2025-04-30 083517](https://github.com/user-attachments/assets/aacf9f69-d0c1-4194-9b70-190d1b8e295b)
 
+<br /><hr /><br />
+
+# Recursion: Big O
+In **recursion**, the `time complexity` depends on the **number of recursive calls** and the `space complexity` depends on the **depth of the call stack**.
+
+**Example**:
+```python
+function factorial(n):
+    if n equals 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+```
+* **The time complexity** is `O(n)`, where `n` is the number of recursive calls.
+* **The space complexity** is `O(n)`, where `n` is the depth of the call stack.
 
 
 
