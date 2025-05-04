@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 class Node:
     def __init__(self, value):
         self.value = value
@@ -12,6 +11,7 @@ def postorder_traversal(node):
         postorder_traversal(node.left)
         postorder_traversal(node.right)
         print(node.value, end=" ")
+
 # Example usage
 print(">> First Tree Postorder Traversal:", end=" ")
 root = Node(1)
