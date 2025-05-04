@@ -21,7 +21,14 @@ And that happens `recursively` for each `node` in the `tree`.
 
 ![Screenshot 2025-05-04 111451](https://github.com/user-attachments/assets/af037639-43f2-4fbe-ba1d-e16b2569dd08)
 
+### Tree Traversal: Preorder
+**Preorder traversal** is a **tree traversal algorithm** that visits the `root node` first, then `recursively` performs a `preorder traversal` on the `left subtree`, and finally on the `right subtree`.
 
+So to make it simpler, this **algorithm** visits the `nodes` in the `tree` in this order:
+
+> root node -> left child -> right child
+
+And that happens `recursively` for each `node` in the `tree`.
 
 
 
