@@ -19,6 +19,7 @@ So to make it simpler, this **algorithm** visits the `nodes` in the `tree` in th
 
 And that happens `recursively` for each `node` in the `tree`.
 
+![Screenshot 2025-05-04 111451](https://github.com/user-attachments/assets/af037639-43f2-4fbe-ba1d-e16b2569dd08)
 
 
 
