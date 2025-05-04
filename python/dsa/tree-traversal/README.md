@@ -43,7 +43,7 @@ And that happens `recursively` for each `node` in the `tree`.
 
 ![Screenshot 2025-05-04 130948](https://github.com/user-attachments/assets/e22c9252-1e4a-4d14-a7c0-05b5603c717d)
 
-
-
-
+## Tree Traversal (inorder, preorder, postorder) Big O Notation
+* **Time Complexity**: `O(n)` - as every `node` in the `tree` is visited once.
+* **Space Complexity**: `O(h)` - where `h` is the **height** of the `tree`. This is because we use `recursion` for implementing those `algorithms`, and the `base case` for the `recursion` is when we try to visit a `null node`(a node that does not exist), and this case happens when we try to visit the children of a `leaf node`. So the maximum number of the `recursive` calls that will be in the `call stack`, or the `recursion stack` will be from the `topmost node` in the `tree` until a `leaf node` in the `tree`. And that is defined by the **height** of the `tree`.
 
