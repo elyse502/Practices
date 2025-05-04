@@ -10,7 +10,7 @@ When it comes to **tree traversal**, `depth first search` is a very common `trav
 2. **Pre-order traversal**: Visit the `root node` first, then visit the `left subtree`, then visit the `right subtree`.
 3. **Post-order traversal**: Visit the `left subtree` first, then visit the `right subtree`, then visit the `root node`.
 
-### Tree Traversal: Inorder
+### Tree Traversal: `Inorder`
 **Inorder traversal** is a **tree traversal algorithm** that recursively performs an `inorder traversal` on the `left subtree`, visits the `root node`, and finally performs an `inorder traversal` on the `right subtree`.
 
 So to make it simpler, this **algorithm** visits the `nodes` in the `tree` in this order:
@@ -21,7 +21,7 @@ And that happens `recursively` for each `node` in the `tree`.
 
 ![Screenshot 2025-05-04 111451](https://github.com/user-attachments/assets/af037639-43f2-4fbe-ba1d-e16b2569dd08)
 
-### Tree Traversal: Preorder
+### Tree Traversal: `Preorder`
 **Preorder traversal** is a **tree traversal algorithm** that visits the `root node` first, then `recursively` performs a `preorder traversal` on the `left subtree`, and finally on the `right subtree`.
 
 So to make it simpler, this **algorithm** visits the `nodes` in the `tree` in this order:
@@ -29,6 +29,9 @@ So to make it simpler, this **algorithm** visits the `nodes` in the `tree` in th
 > root node -> left child -> right child
 
 And that happens `recursively` for each `node` in the `tree`.
+
+![Screenshot 2025-05-04 122731](https://github.com/user-attachments/assets/ea79ecfd-cd68-4991-94a7-9eb53e8105ca)
+
 
 
 
