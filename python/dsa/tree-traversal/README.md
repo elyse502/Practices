@@ -32,7 +32,7 @@ And that happens `recursively` for each `node` in the `tree`.
 
 ![Screenshot 2025-05-04 122731](https://github.com/user-attachments/assets/ea79ecfd-cd68-4991-94a7-9eb53e8105ca)
 
-#### Tree Traversal: `Postorder`
+### Tree Traversal: `Postorder`
 **Postorder traversal** is a **tree traversal algorithm** that `recursively` performs a `postorder traversal` on the `left subtree`, then on the `right subtree`, and finally visits the `root node`.
 
 So to make it simpler, this **algorithm** visits the `nodes` in the `tree` in this order:
@@ -40,6 +40,9 @@ So to make it simpler, this **algorithm** visits the `nodes` in the `tree` in th
 > left child -> right child -> root node
 
 And that happens `recursively` for each `node` in the `tree`.
+
+![Screenshot 2025-05-04 130948](https://github.com/user-attachments/assets/e22c9252-1e4a-4d14-a7c0-05b5603c717d)
+
 
 
 
