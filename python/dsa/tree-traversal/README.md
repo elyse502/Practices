@@ -30,6 +30,9 @@ So to make it simpler, this **algorithm** visits the `nodes` in the `tree` in th
 
 And that happens `recursively` for each `node` in the `tree`.
 
+![Screenshot 2025-05-04 122731](https://github.com/user-attachments/assets/ea79ecfd-cd68-4991-94a7-9eb53e8105ca)
+
+
 
 
 
