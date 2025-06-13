@@ -11,10 +11,20 @@ for i in range(m):
 	print("* " * m if i in [0, m-1] else "* " + "  " * (m-2) + "*")
 
 """Dictionary Technique"""
-def get_day(num):
-	days = {1: "Mon", 2: "Tue", 3: "Wedn"}
-	return days.get(num, "Invalid")
+def print_day_of_week(day_number):
+    days_of_week = {
+        1: "Monday",
+        2: "Tuesday",
+        3: "Wednesday",
+        4: "Thursday",
+        5: "Friday",
+        6: "Saturday",
+        7: "Sunday",
+    }
+    
+    return days_of_week.get(day_number, 'Invalid number')
 
 print()
-print(get_day(1))
-print(get_day(4))
+print(print_day_of_week(1))
+print(print_day_of_week(7))
+print(print_day_of_week(8))
