@@ -38,3 +38,25 @@ def load_data(df, output_path):
     except Exception as e:
         logger.error(f"Error loading data: {e}")
         raise
+
+def etl():
+    """ETL process function"""
+    try:
+        input_file_path = "data/sales_data.csv"
+        output_file_path = "data/transformed_data.csv"
+
+        # Extract
+        data = extract_data(input_file_path)
+
+        # Transform
+        transformed_data = transform_data(data)
+
+        # Load
+        load_data(transformed_data, output_file_path)
+
+        logger.info("ETL process completed successfully.")
+    except Exception as e:
+        logger.error(f"Error ETL process failed: {e}")
+
+if __name__ == "__main__":
+    etl()
