@@ -29,3 +29,12 @@ def transform_data(df):
     except Exception as e:
         logger.error(f"Error transforming data: {e}")
         raise
+
+def load_data(df, output_path):
+    """Load the data to a csv file"""
+    try:
+        df.to_csv(output_path, index=False)
+        logger.info("Data loaded successfully.")
+    except Exception as e:
+        logger.error(f"Error loading data: {e}")
+        raise
